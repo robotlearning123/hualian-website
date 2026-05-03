@@ -1,0 +1,2814 @@
+{
+  "generated_at": "2026-05-01T20:36:12.423Z",
+  "sites": {
+    "neuralink": {
+      "page_count": 40,
+      "totals": {
+        "rendered_links": 1291,
+        "clicked_links": 1291,
+        "rendered_controls": 130,
+        "clicked_controls": 130,
+        "rendered_forms": 0,
+        "rendered_inputs": 12,
+        "local_internal_links": 915,
+        "broken_local_internal_links": 0,
+        "remote_static_requests": 0,
+        "blocking_runtime_exceptions": 0,
+        "ignored_runtime_exceptions": 0
+      },
+      "pages": {
+        "home": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/index.html?sitewide=1777667642709",
+          "title": "Neuralink — Pioneering Brain Computer Interfaces",
+          "passed": true,
+          "body_text_length": 1698,
+          "rendered": {
+            "links": 29,
+            "controls": 9,
+            "forms": 0,
+            "inputs": 0,
+            "images": 2,
+            "videos": 6
+          },
+          "clicked": {
+            "links": 29,
+            "controls": 9
+          },
+          "branches": {
+            "local_internal_hrefs": 22,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "careers": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/careers/index.html?sitewide=1777667644943",
+          "title": "Careers | Neuralink",
+          "passed": true,
+          "body_text_length": 8065,
+          "rendered": {
+            "links": 92,
+            "controls": 23,
+            "forms": 0,
+            "inputs": 1,
+            "images": 6,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 92,
+            "controls": 23
+          },
+          "branches": {
+            "local_internal_hrefs": 84,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 8,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "careers-apply": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/careers/apply/index.html?sitewide=1777667647158",
+          "title": "Apply | Neuralink",
+          "passed": true,
+          "body_text_length": 308,
+          "rendered": {
+            "links": 25,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 25,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 18,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "mailing-list": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/mailing-list/index.html?sitewide=1777667649368",
+          "title": "Join Our Mailing List | Neuralink",
+          "passed": true,
+          "body_text_length": 884,
+          "rendered": {
+            "links": 25,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 10,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 25,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 18,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "patient-registry-privacy-notice": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/patient-registry-privacy-notice/index.html?sitewide=1777667651583",
+          "title": "Patient Registry Privacy Notice | Neuralink",
+          "passed": true,
+          "body_text_length": 6151,
+          "rendered": {
+            "links": 28,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 28,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 18,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "privacy-policy": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/privacy-policy/index.html?sitewide=1777667653792",
+          "title": "Privacy Policy | Neuralink",
+          "passed": true,
+          "body_text_length": 15083,
+          "rendered": {
+            "links": 28,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 28,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 9,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "technology": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/technology/index.html?sitewide=1777667656001",
+          "title": "Technology | Neuralink",
+          "passed": true,
+          "body_text_length": 2857,
+          "rendered": {
+            "links": 27,
+            "controls": 14,
+            "forms": 0,
+            "inputs": 0,
+            "images": 10,
+            "videos": 2
+          },
+          "clicked": {
+            "links": 27,
+            "controls": 14
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "terms-of-use": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/terms-of-use/index.html?sitewide=1777667658213",
+          "title": "Terms of Use | Neuralink",
+          "passed": true,
+          "body_text_length": 21918,
+          "rendered": {
+            "links": 31,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 31,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 21,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "trials": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/trials/index.html?sitewide=1777667660426",
+          "title": "Clinical Trials | Neuralink",
+          "passed": true,
+          "body_text_length": 1752,
+          "rendered": {
+            "links": 32,
+            "controls": 4,
+            "forms": 0,
+            "inputs": 1,
+            "images": 10,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 4
+          },
+          "branches": {
+            "local_internal_hrefs": 21,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 11,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "trials-device-control": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/trials/device-control/index.html?sitewide=1777667662638",
+          "title": "Device Control | Neuralink",
+          "passed": true,
+          "body_text_length": 2397,
+          "rendered": {
+            "links": 30,
+            "controls": 6,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 30,
+            "controls": 6
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "trials-speech-restoration": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/trials/speech-restoration/index.html?sitewide=1777667664850",
+          "title": "Speech Restoration | Neuralink",
+          "passed": true,
+          "body_text_length": 2263,
+          "rendered": {
+            "links": 30,
+            "controls": 4,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 30,
+            "controls": 4
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "trials-visual-prosthesis": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/trials/visual-prosthesis/index.html?sitewide=1777667667061",
+          "title": "Visual Prosthesis | Neuralink",
+          "passed": true,
+          "body_text_length": 1747,
+          "rendered": {
+            "links": 30,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 30,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/index.html?sitewide=1777667669273",
+          "title": "Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 8836,
+          "rendered": {
+            "links": 79,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 79,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 72,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-a-year-of-telepathy": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/a-year-of-telepathy/index.html?sitewide=1777667671483",
+          "title": "A Year of Telepathy | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 11737,
+          "rendered": {
+            "links": 36,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 3,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 36,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 21,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 15,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-announcing-neuralink-s-patient-registry": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/announcing-neuralink-s-patient-registry/index.html?sitewide=1777667673692",
+          "title": "Announcing Neuralink's Patient Registry | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 2786,
+          "rendered": {
+            "links": 27,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 27,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-building-safe-implantable-devices": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/building-safe-implantable-devices/index.html?sitewide=1777667675913",
+          "title": "Building Safe Implantable Devices | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 8727,
+          "rendered": {
+            "links": 34,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 6,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 34,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 27,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-can-prime-study-launch": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/can-prime-study-launch/index.html?sitewide=1777667678120",
+          "title": "CAN-PRIME Study Launch | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 1720,
+          "rendered": {
+            "links": 28,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 28,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 8,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-championing-the-3-rs": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/championing-the-3-rs/index.html?sitewide=1777667680328",
+          "title": "Championing the 3 Rs | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 4377,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 4,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-convoy-study-launch": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/convoy-study-launch/index.html?sitewide=1777667682536",
+          "title": "CONVOY Study Launch | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 959,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-datarepo": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/datarepo/index.html?sitewide=1777667684746",
+          "title": "datarepo - Neuralink's platform for complex data | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 7378,
+          "rendered": {
+            "links": 33,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 33,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 14,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-environmental-enrichment": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/environmental-enrichment/index.html?sitewide=1777667686954",
+          "title": "Environmental Enrichment | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 15004,
+          "rendered": {
+            "links": 32,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 16,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 21,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 11,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-first-clinical-trial-open-for-recruitment": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/first-clinical-trial-open-for-recruitment/index.html?sitewide=1777667689164",
+          "title": "Neuralink’s First-in-Human Clinical Trial is Open for Recruitment | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 2034,
+          "rendered": {
+            "links": 27,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 27,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-gb-prime-study-launch": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/gb-prime-study-launch/index.html?sitewide=1777667691383",
+          "title": "GB-PRIME Study Launch | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 1795,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-husbandry-refinement": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/husbandry-refinement/index.html?sitewide=1777667693590",
+          "title": "Husbandry Refinement | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 11164,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 11,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-neuralink-raises-280m-series-d": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/neuralink-raises-280m-series-d/index.html?sitewide=1777667695799",
+          "title": "Neuralink Raises $280M Series D | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 666,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-neuralink-raises-650m-series-e": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/neuralink-raises-650m-series-e/index.html?sitewide=1777667698034",
+          "title": "Neuralink raises $650 million Series E | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 2640,
+          "rendered": {
+            "links": 27,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 27,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-neuralink-receives-breakthrough-device-designation-for-blindsight": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/neuralink-receives-breakthrough-device-designation-for-blindsight/index.html?sitewide=1777667700243",
+          "title": "Neuralink Receives Breakthrough Device Designation for Blindsight | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 632,
+          "rendered": {
+            "links": 27,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 27,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 8,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-neuralink-receives-breakthrough-device-designation-for-speech": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/neuralink-receives-breakthrough-device-designation-for-speech/index.html?sitewide=1777667702452",
+          "title": "Neuralink Receives Breakthrough Device Designation for Speech | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 825,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 18,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 8,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-neuralink-s-commitment-to-animal-welfare": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/neuralink-s-commitment-to-animal-welfare/index.html?sitewide=1777667704660",
+          "title": "Neuralink’s Commitment to Animal Welfare | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 13946,
+          "rendered": {
+            "links": 34,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 4,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 34,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 15,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-neuralinks-patient-registry-opens-to-canada": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/neuralinks-patient-registry-opens-to-canada/index.html?sitewide=1777667706869",
+          "title": "Neuralink’s Patient Registry Opens to Canada | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 1975,
+          "rendered": {
+            "links": 27,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 27,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 20,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-pager-plays-mindpong": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/pager-plays-mindpong/index.html?sitewide=1777667709084",
+          "title": "Pager Plays MindPong | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 11390,
+          "rendered": {
+            "links": 29,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 3,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 29,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-prime-study-progress-update-second-participant": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/prime-study-progress-update-second-participant/index.html?sitewide=1777667711293",
+          "title": "PRIME Study Progress Update — Second Participant | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 7622,
+          "rendered": {
+            "links": 37,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 1,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 37,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 25,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 12,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-prime-study-progress-update-user-experience": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/prime-study-progress-update-user-experience/index.html?sitewide=1777667713520",
+          "title": "PRIME Study Progress Update — User Experience | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 7128,
+          "rendered": {
+            "links": 32,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 2,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 22,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-prime-study-progress-update": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/prime-study-progress-update/index.html?sitewide=1777667715735",
+          "title": "PRIME Study Progress Update | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 9647,
+          "rendered": {
+            "links": 45,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 7,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 45,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 23,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 22,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-series-c-funding-round-announcement": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/series-c-funding-round-announcement/index.html?sitewide=1777667717954",
+          "title": "Series C Funding Round Announcement | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 2255,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-the-role-of-the-institutional-animal-care-and-use-committee": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/the-role-of-the-institutional-animal-care-and-use-committee/index.html?sitewide=1777667720165",
+          "title": "The Role of the Institutional Animal Care and Use Committee | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 17626,
+          "rendered": {
+            "links": 44,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 3,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 44,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 22,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 22,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-two-years-of-telepathy": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/two-years-of-telepathy/index.html?sitewide=1777667722375",
+          "title": "Two Years of Telepathy | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 12628,
+          "rendered": {
+            "links": 36,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 2,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 36,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 21,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 15,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-understanding-preclinical-research-at-neuralink": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/understanding-preclinical-research-at-neuralink/index.html?sitewide=1777667724583",
+          "title": "Understanding Preclinical Research at Neuralink | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 14367,
+          "rendered": {
+            "links": 32,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 4,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 23,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 9,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "updates-welcome-david-mcmullen": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/updates/welcome-david-mcmullen/index.html?sitewide=1777667726808",
+          "title": "Welcome, David McMullen! | Updates | Neuralink",
+          "passed": true,
+          "body_text_length": 2829,
+          "rendered": {
+            "links": 26,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 26,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 19,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 7,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "webgrid": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuralink/neuralink.com/webgrid/index.html?sitewide=1777667729054",
+          "title": "Play Webgrid | Neuralink",
+          "passed": true,
+          "body_text_length": 518,
+          "rendered": {
+            "links": 10,
+            "controls": 2,
+            "forms": 0,
+            "inputs": 0,
+            "images": 0,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 10,
+            "controls": 2
+          },
+          "branches": {
+            "local_internal_hrefs": 10,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 0,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        }
+      }
+    },
+    "neuropixels": {
+      "page_count": 29,
+      "totals": {
+        "rendered_links": 1352,
+        "clicked_links": 1352,
+        "rendered_controls": 346,
+        "clicked_controls": 346,
+        "rendered_forms": 4,
+        "rendered_inputs": 19,
+        "local_internal_links": 1260,
+        "broken_local_internal_links": 0,
+        "remote_static_requests": 0,
+        "blocking_runtime_exceptions": 0,
+        "ignored_runtime_exceptions": 76
+      },
+      "pages": {
+        "home": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/index.html?sitewide=1777667731263",
+          "title": "Home | Neuropixels",
+          "passed": true,
+          "body_text_length": 760,
+          "rendered": {
+            "links": 46,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 7,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/index.html?sitewide=1777667731263:1170:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/index.html?sitewide=1777667731263:1170:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/index.html?sitewide=1777667731263:1170:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/index.html?sitewide=1777667731263",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/index.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/index.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "about": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/about.html?sitewide=1777667732672",
+          "title": "About | Neuropixels",
+          "passed": true,
+          "body_text_length": 1628,
+          "rendered": {
+            "links": 51,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 11,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 51,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 41,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 10,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/about.html?sitewide=1777667732672:962:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/about.html?sitewide=1777667732672:962:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/about.html?sitewide=1777667732672:962:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/about.html?sitewide=1777667732672",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/about.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.0c4424e3.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 21984
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/about.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.0c4424e3.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 21984
+              }
+            ]
+          }
+        },
+        "additional-documentation": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html?sitewide=1777667734079",
+          "title": "Additional Documentation | Neuropixels",
+          "passed": true,
+          "body_text_length": 1611,
+          "rendered": {
+            "links": 44,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 4,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 44,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 42,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html?sitewide=1777667734079:975:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html?sitewide=1777667734079:975:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html?sitewide=1777667734079:975:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html?sitewide=1777667734079",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "contact": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/contact.html?sitewide=1777667735487",
+          "title": "Contact | Neuropixels",
+          "passed": true,
+          "body_text_length": 1022,
+          "rendered": {
+            "links": 45,
+            "controls": 4,
+            "forms": 1,
+            "inputs": 5,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 45,
+            "controls": 4
+          },
+          "branches": {
+            "local_internal_hrefs": 42,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/contact.html?sitewide=1777667735487:1038:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/contact.html?sitewide=1777667735487:1038:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/contact.html?sitewide=1777667735487:1038:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/contact.html?sitewide=1777667735487",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/contact.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.0c4424e3.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 21984
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/contact.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.0c4424e3.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 21984
+              }
+            ]
+          }
+        },
+        "copy-of-neuropixels": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html?sitewide=1777667736894",
+          "title": "Legal Disclaimer | Neuropixels",
+          "passed": true,
+          "body_text_length": 1444,
+          "rendered": {
+            "links": 43,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 4,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 43,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 41,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html?sitewide=1777667736894:954:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html?sitewide=1777667736894:954:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html?sitewide=1777667736894:954:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html?sitewide=1777667736894",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "news": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/news.html?sitewide=1777667738301",
+          "title": "News | Neuropixels",
+          "passed": true,
+          "body_text_length": 826,
+          "rendered": {
+            "links": 32,
+            "controls": 5,
+            "forms": 1,
+            "inputs": 3,
+            "images": 1,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 5
+          },
+          "branches": {
+            "local_internal_hrefs": 29,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 1,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "news-categories-imec-news": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/news/categories/imec-news.html?sitewide=1777667739719",
+          "title": "News | Neuropixels",
+          "passed": true,
+          "body_text_length": 826,
+          "rendered": {
+            "links": 32,
+            "controls": 5,
+            "forms": 1,
+            "inputs": 3,
+            "images": 1,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 5
+          },
+          "branches": {
+            "local_internal_hrefs": 29,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 1,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "news-categories-publications": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/news/categories/publications.html?sitewide=1777667741130",
+          "title": "News | Neuropixels",
+          "passed": true,
+          "body_text_length": 826,
+          "rendered": {
+            "links": 32,
+            "controls": 5,
+            "forms": 1,
+            "inputs": 3,
+            "images": 1,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 32,
+            "controls": 5
+          },
+          "branches": {
+            "local_internal_hrefs": 29,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 1,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": []
+          }
+        },
+        "order": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/order.html?sitewide=1777667742538",
+          "title": "Order | Neuropixels",
+          "passed": true,
+          "body_text_length": 655,
+          "rendered": {
+            "links": 43,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 4,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 43,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 41,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/order.html?sitewide=1777667742538:998:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/order.html?sitewide=1777667742538:998:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/order.html?sitewide=1777667742538:998:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/order.html?sitewide=1777667742538",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/order.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/order.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "post-a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13-c2-b5m-soi-cmos-ieee-2016": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13µm-soi-cmos-ieee-2016.html?sitewide=1777667743943",
+          "title": "A 966-electrode neural probe with 384 configurable channels in 0.13µm SOI CMOS (IEEE, 2016)",
+          "passed": true,
+          "body_text_length": 793,
+          "rendered": {
+            "links": 47,
+            "controls": 10,
+            "forms": 0,
+            "inputs": 1,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 10
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13%C2%B5m-soi-cmos-ieee-2016.html?sitewide=1777667743943:1645:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13%C2%B5m-soi-cmos-ieee-2016.html?sitewide=1777667743943:1645:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13%C2%B5m-soi-cmos-ieee-2016.html?sitewide=1777667743943:1645:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13%C2%B5m-soi-cmos-ieee-2016.html?sitewide=1777667743943",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13%C2%B5m-soi-cmos-ieee-2016.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13%C2%B5m-soi-cmos-ieee-2016.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "post-challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html?sitewide=1777667745348",
+          "title": "Challenges and opportunities for large-scale electrophysiology with Neuropixels probes (COiNB, 2018)",
+          "passed": true,
+          "body_text_length": 856,
+          "rendered": {
+            "links": 47,
+            "controls": 10,
+            "forms": 0,
+            "inputs": 1,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 10
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html?sitewide=1777667745348:1658:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html?sitewide=1777667745348:1658:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html?sitewide=1777667745348:1658:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html?sitewide=1777667745348",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "post-fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html?sitewide=1777667746755",
+          "title": "Fully integrated silicon probes for high-density recording of neural activity (Nature, 2017)",
+          "passed": true,
+          "body_text_length": 808,
+          "rendered": {
+            "links": 47,
+            "controls": 10,
+            "forms": 0,
+            "inputs": 1,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 10
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html?sitewide=1777667746755:1645:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html?sitewide=1777667746755:1645:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html?sitewide=1777667746755:1645:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html?sitewide=1777667746755",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "post-neuropixels-data-acquisition-system-ieee-2019": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html?sitewide=1777667748163",
+          "title": "Neuropixels Data-Acquisition System (IEEE, 2019)",
+          "passed": true,
+          "body_text_length": 891,
+          "rendered": {
+            "links": 47,
+            "controls": 10,
+            "forms": 0,
+            "inputs": 1,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 10
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 3,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html?sitewide=1777667748163:1645:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html?sitewide=1777667748163:1645:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html?sitewide=1777667748163:1645:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html?sitewide=1777667748163",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe-1-0-nhp-long": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html?sitewide=1777667749576",
+          "title": "probe NHP long | Neuropixels",
+          "passed": true,
+          "body_text_length": 2211,
+          "rendered": {
+            "links": 46,
+            "controls": 9,
+            "forms": 0,
+            "inputs": 0,
+            "images": 9,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 9
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html?sitewide=1777667749576:1226:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html?sitewide=1777667749576:1226:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html?sitewide=1777667749576:1226:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html?sitewide=1777667749576",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe-1-0-nhp-medium": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html?sitewide=1777667750986",
+          "title": "probe NHP medium | Neuropixels",
+          "passed": true,
+          "body_text_length": 2203,
+          "rendered": {
+            "links": 45,
+            "controls": 9,
+            "forms": 0,
+            "inputs": 0,
+            "images": 9,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 45,
+            "controls": 9
+          },
+          "branches": {
+            "local_internal_hrefs": 43,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html?sitewide=1777667750986:1187:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html?sitewide=1777667750986:1187:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html?sitewide=1777667750986:1187:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html?sitewide=1777667750986",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe-1-0-nhp-short": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html?sitewide=1777667752393",
+          "title": "probe NHP short | Neuropixels",
+          "passed": true,
+          "body_text_length": 2076,
+          "rendered": {
+            "links": 46,
+            "controls": 9,
+            "forms": 0,
+            "inputs": 0,
+            "images": 9,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 9
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html?sitewide=1777667752393:1239:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html?sitewide=1777667752393:1239:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html?sitewide=1777667752393:1239:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html?sitewide=1777667752393",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe-2-0-single-shank": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html?sitewide=1777667753800",
+          "title": "NP 2.0 | Neuropixels",
+          "passed": true,
+          "body_text_length": 3154,
+          "rendered": {
+            "links": 47,
+            "controls": 18,
+            "forms": 0,
+            "inputs": 0,
+            "images": 12,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 18
+          },
+          "branches": {
+            "local_internal_hrefs": 45,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html?sitewide=1777667753800:1401:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html?sitewide=1777667753800:1401:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html?sitewide=1777667753800:1401:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html?sitewide=1777667753800",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe-nhp-long": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html?sitewide=1777667755207",
+          "title": "NP NHP | Neuropixels",
+          "passed": true,
+          "body_text_length": 1673,
+          "rendered": {
+            "links": 47,
+            "controls": 30,
+            "forms": 0,
+            "inputs": 0,
+            "images": 25,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 30
+          },
+          "branches": {
+            "local_internal_hrefs": 45,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html?sitewide=1777667755207:976:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html?sitewide=1777667755207:976:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html?sitewide=1777667755207:976:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html?sitewide=1777667755207",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe1-0": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html?sitewide=1777667756615",
+          "title": "probe 1.0 | Neuropixels",
+          "passed": true,
+          "body_text_length": 2186,
+          "rendered": {
+            "links": 46,
+            "controls": 21,
+            "forms": 0,
+            "inputs": 0,
+            "images": 16,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 21
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html?sitewide=1777667756615:1305:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html?sitewide=1777667756615:1305:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html?sitewide=1777667756615:1305:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html?sitewide=1777667756615",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe2-0": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html?sitewide=1777667758024",
+          "title": "NP 2.0 | Neuropixels",
+          "passed": true,
+          "body_text_length": 3152,
+          "rendered": {
+            "links": 46,
+            "controls": 23,
+            "forms": 0,
+            "inputs": 0,
+            "images": 16,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 23
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html?sitewide=1777667758024:1401:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html?sitewide=1777667758024:1401:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html?sitewide=1777667758024:1401:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html?sitewide=1777667758024",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probe2-0-qb-multi-shank": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html?sitewide=1777667759433",
+          "title": "NP 2.0 Quad Base | Neuropixels",
+          "passed": true,
+          "body_text_length": 3065,
+          "rendered": {
+            "links": 47,
+            "controls": 22,
+            "forms": 0,
+            "inputs": 0,
+            "images": 16,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 22
+          },
+          "branches": {
+            "local_internal_hrefs": 45,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html?sitewide=1777667759433:1395:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html?sitewide=1777667759433:1395:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html?sitewide=1777667759433:1395:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html?sitewide=1777667759433",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probes-and-probe-specific-accessories": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html?sitewide=1777667760844",
+          "title": "Probes and Probe Specific Accessories | Neuropixels",
+          "passed": true,
+          "body_text_length": 728,
+          "rendered": {
+            "links": 46,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 5,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html?sitewide=1777667760844:1127:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html?sitewide=1777667760844:1127:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html?sitewide=1777667760844:1127:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html?sitewide=1777667760844",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.0c4424e3.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 21984
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.0c4424e3.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 21984
+              }
+            ]
+          }
+        },
+        "probes-nhp": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html?sitewide=1777667762254",
+          "title": "NP NHP | Neuropixels",
+          "passed": true,
+          "body_text_length": 1673,
+          "rendered": {
+            "links": 47,
+            "controls": 30,
+            "forms": 0,
+            "inputs": 0,
+            "images": 25,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 47,
+            "controls": 30
+          },
+          "branches": {
+            "local_internal_hrefs": 45,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html?sitewide=1777667762254:989:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html?sitewide=1777667762254:989:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html?sitewide=1777667762254:989:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html?sitewide=1777667762254",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "probes-np2-0": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html?sitewide=1777667763661",
+          "title": "NP2.0 | Neuropixels",
+          "passed": true,
+          "body_text_length": 2933,
+          "rendered": {
+            "links": 55,
+            "controls": 52,
+            "forms": 0,
+            "inputs": 0,
+            "images": 42,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 55,
+            "controls": 52
+          },
+          "branches": {
+            "local_internal_hrefs": 53,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html?sitewide=1777667763661:989:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html?sitewide=1777667763661:989:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html?sitewide=1777667763661:989:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html?sitewide=1777667763661",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "products": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/products.html?sitewide=1777667765068",
+          "title": "Products | Neuropixels",
+          "passed": true,
+          "body_text_length": 927,
+          "rendered": {
+            "links": 50,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 7,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 50,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 48,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/products.html?sitewide=1777667765068:1355:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/products.html?sitewide=1777667765068:1355:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/products.html?sitewide=1777667765068:1355:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/products.html?sitewide=1777667765068",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/products.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/products.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "software": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/software.html?sitewide=1777667766475",
+          "title": "Software | Neuropixels",
+          "passed": true,
+          "body_text_length": 2044,
+          "rendered": {
+            "links": 51,
+            "controls": 3,
+            "forms": 0,
+            "inputs": 0,
+            "images": 3,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 51,
+            "controls": 3
+          },
+          "branches": {
+            "local_internal_hrefs": 46,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 5,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/software.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/software.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "specialty-products": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html?sitewide=1777667767883",
+          "title": "Specialty Products | Neuropixels",
+          "passed": true,
+          "body_text_length": 1102,
+          "rendered": {
+            "links": 46,
+            "controls": 12,
+            "forms": 0,
+            "inputs": 0,
+            "images": 10,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 46,
+            "controls": 12
+          },
+          "branches": {
+            "local_internal_hrefs": 44,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html?sitewide=1777667767883:972:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html?sitewide=1777667767883:972:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html?sitewide=1777667767883:972:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html?sitewide=1777667767883",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "support": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/support.html?sitewide=1777667769290",
+          "title": "Support | Neuropixels",
+          "passed": true,
+          "body_text_length": 9070,
+          "rendered": {
+            "links": 86,
+            "controls": 15,
+            "forms": 0,
+            "inputs": 1,
+            "images": 3,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 86,
+            "controls": 15
+          },
+          "branches": {
+            "local_internal_hrefs": 69,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 17,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/support.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/support.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        },
+        "system1-0": {
+          "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html?sitewide=1777667770697",
+          "title": "Systems | Neuropixels",
+          "passed": true,
+          "body_text_length": 1776,
+          "rendered": {
+            "links": 45,
+            "controls": 13,
+            "forms": 0,
+            "inputs": 0,
+            "images": 12,
+            "videos": 0
+          },
+          "clicked": {
+            "links": 45,
+            "controls": 13
+          },
+          "branches": {
+            "local_internal_hrefs": 43,
+            "broken_local_internal_hrefs": [],
+            "original_internal_hrefs": [],
+            "unresolved_local_hrefs": [],
+            "external_or_special_links": 2,
+            "link_click_failures": [],
+            "control_click_failures": [],
+            "form_submit_prevented_count": 0,
+            "remote_static_requests": [],
+            "blocking_runtime_exceptions": [],
+            "ignored_runtime_exceptions": [
+              {
+                "text": "Uncaught",
+                "description": "SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at l.reLayout (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html?sitewide=1777667770697:982:8138)\n    at http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html?sitewide=1777667770697:982:7399\n    at Array.map (<anonymous>)\n    at ResizeObserver.<anonymous> (http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html?sitewide=1777667770697:982:7383)",
+                "value": "",
+                "url": "http://127.0.0.1:3492/downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html?sitewide=1777667770697",
+                "lineNumber": 0,
+                "columnNumber": 0
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              },
+              {
+                "text": "Uncaught (in promise) Error: did not find the pageId for the requested url /downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html",
+                "description": "",
+                "value": "",
+                "url": "https://static.parastorage.com/services/wix-thunderbolt/dist/group_4.7b01ee5f.chunk.min.js",
+                "lineNumber": 0,
+                "columnNumber": 22425
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

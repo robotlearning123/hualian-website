@@ -1,0 +1,9 @@
+# Large reference/cloned content
+neuralink-neuropixels-public-research-clone-source/downloaded-sites/
+neuralink-neuropixels-public-research-clone-source/public-clone/
+
+# PDF source (59MB)
+*.pdf
+
+# OS
+.DS_Store

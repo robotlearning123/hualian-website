@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-05-01T20:36:12.435Z",
+  "scenario_count": 11,
+  "passed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Public discovery scope is complete and clean",
+      "given": "Given the saved public-page manifest",
+      "when": "When the public page and document counts are evaluated",
+      "then": "Then it contains only successful public pages for both sites",
+      "status": "PASS",
+      "duration_ms": 0
+    },
+    {
+      "name": "Every public page has local clone files and raw screenshots",
+      "given": "Given every manifest page",
+      "when": "When the local page and screenshot assets are inspected",
+      "then": "Then each page has an HTML clone plus desktop and mobile PNG assets with matching dimensions",
+      "status": "PASS",
+      "duration_ms": 35
+    },
+    {
+      "name": "Raw screenshots and local clone renders match",
+      "given": "Given the generated visual comparison report",
+      "when": "When every desktop and mobile comparison row is evaluated",
+      "then": "Then all 138 raw-vs-clone comparisons pass and failures are zero",
+      "status": "PASS",
+      "duration_ms": 0
+    },
+    {
+      "name": "Static references resolve",
+      "given": "Given the static homepage clones",
+      "when": "When local href/src/poster references are checked",
+      "then": "Then all referenced local files exist",
+      "status": "PASS",
+      "duration_ms": 17
+    },
+    {
+      "name": "Repository excludes runtime caches and private execution state",
+      "given": "Given the files tracked by git",
+      "when": "When ignored and sensitive paths are checked",
+      "then": "Then runtime caches are not tracked and common secret material is absent",
+      "status": "PASS",
+      "duration_ms": 298
+    },
+    {
+      "name": "GitHub repository is private",
+      "given": "Given the configured GitHub remote",
+      "when": "When GitHub repository metadata is queried",
+      "then": "Then the repository visibility is PRIVATE",
+      "status": "PASS",
+      "duration_ms": 693
+    },
+    {
+      "name": "Local public clone serves key pages",
+      "given": "Given the generated public-clone directory",
+      "when": "When it is served through a local HTTP server",
+      "then": "Then the index and representative pages return HTTP 200",
+      "status": "PASS",
+      "duration_ms": 126
+    },
+    {
+      "name": "Public source assets are downloaded locally",
+      "given": "Given the full public-site download report",
+      "when": "When public static resources are counted by type",
+      "then": "Then the local mirror includes pages, scripts, images, PDFs, GIFs, and videos with only known public CDN misses",
+      "status": "PASS",
+      "duration_ms": 17
+    },
+    {
+      "name": "Public interactions are inventoried",
+      "given": "Given the raw public HTML interaction inventory",
+      "when": "When links, buttons, forms, and menu triggers are counted",
+      "then": "Then the research clone has a page-backed inventory for public front-end behavior",
+      "status": "PASS",
+      "duration_ms": 1
+    },
+    {
+      "name": "Public GIF and video media are locally playable",
+      "given": "Given the synchronized media gallery manifest",
+      "when": "When local media files and the gallery HTML are inspected",
+      "then": "Then all detected public GIF/video assets exist in the clone",
+      "status": "PASS",
+      "duration_ms": 0
+    },
+    {
+      "name": "Downloaded HTML mirrors support public interactions",
+      "given": "Given the downloaded local mirrors for Neuralink and Neuropixels",
+      "when": "When a clean headless Chrome opens and clicks representative controls",
+      "then": "Then local pages render, media loads, navigation works, and original static assets are not requested",
+      "status": "PASS",
+      "duration_ms": 190466
+    }
+  ]
+}

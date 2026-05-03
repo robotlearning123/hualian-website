@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-05-01T18:16:01.625Z",
+  "scanned_file_count": 29,
+  "changed_file_count": 24,
+  "replacement_count": 179,
+  "changed": [
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/about.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/additional-documentation.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/contact.html",
+      "replacements": 2
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/copy-of-neuropixels.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/index.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/order.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/post/a-966-electrode-neural-probe-with-384-configurable-channels-in-0-13µm-soi-cmos-ieee-2016.html",
+      "replacements": 2
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/post/challenges-and-opportunities-for-large-scale-electrophysiology-with-neuropixels-probes-coinb-2018.html",
+      "replacements": 2
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/post/fully-integrated-silicon-probes-for-high-density-recording-of-neural-activity-nature-2017.html",
+      "replacements": 2
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/post/neuropixels-data-acquisition-system-ieee-2019.html",
+      "replacements": 2
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-long.html",
+      "replacements": 5
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-medium.html",
+      "replacements": 5
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe-1-0-nhp-short.html",
+      "replacements": 5
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe-2-0-single-shank.html",
+      "replacements": 9
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe-nhp-long.html",
+      "replacements": 22
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe1-0.html",
+      "replacements": 13
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe2-0-qb-multi-shank.html",
+      "replacements": 13
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probe2-0.html",
+      "replacements": 13
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probes-and-probe-specific-accessories.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probes-nhp.html",
+      "replacements": 22
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probes-np2-0.html",
+      "replacements": 39
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/products.html",
+      "replacements": 1
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/specialty-products.html",
+      "replacements": 7
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/system1-0.html",
+      "replacements": 9
+    }
+  ]
+}

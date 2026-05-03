@@ -1,0 +1,219 @@
+.np-page {
+  margin: 0;
+  min-width: 980px;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pixel-page {
+  position: relative;
+}
+
+.pixel-frame {
+  position: relative;
+  width: 100%;
+}
+
+.pixel-shot {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: none;
+}
+
+.semantic-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.semantic-layer .hotspot,
+.semantic-layer .np-dropdown {
+  pointer-events: auto;
+}
+
+.hotspot {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  color: transparent;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.hotspot:focus-visible {
+  outline: 2px solid #007d87;
+  outline-offset: 2px;
+}
+
+.np-skip {
+  position: absolute;
+  z-index: 20;
+  top: 60px;
+  left: 50%;
+  width: 48px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.np-skip:focus {
+  width: auto;
+  height: auto;
+  padding: 8px 12px;
+  color: #000;
+  background: #fff;
+}
+
+.np-logo-hotspot {
+  left: 15.97%;
+  top: 1.62%;
+  width: 13.33%;
+  height: 2.9%;
+}
+
+.np-products-hotspot,
+.np-products-toggle-hotspot {
+  left: 30.4%;
+  top: 2.35%;
+  width: 9.65%;
+  height: 2.62%;
+}
+
+.np-software-hotspot,
+.np-software-toggle-hotspot {
+  left: 40.07%;
+  top: 2.35%;
+  width: 9.65%;
+  height: 2.62%;
+}
+
+.np-support-hotspot,
+.np-support-toggle-hotspot {
+  left: 49.72%;
+  top: 2.35%;
+  width: 9.1%;
+  height: 2.62%;
+}
+
+.np-order-hotspot {
+  left: 58.82%;
+  top: 2.35%;
+  width: 7.85%;
+  height: 2.62%;
+}
+
+.np-about-hotspot {
+  left: 66.74%;
+  top: 2.35%;
+  width: 7.99%;
+  height: 2.62%;
+}
+
+.np-contact-hotspot {
+  left: 74.72%;
+  top: 2.35%;
+  width: 9.24%;
+  height: 2.62%;
+}
+
+.np-probes-card-hotspot {
+  left: 20.6%;
+  top: 44.84%;
+  width: 11.1%;
+  height: 2.23%;
+}
+
+.np-system-card-hotspot {
+  left: 44.45%;
+  top: 44.84%;
+  width: 11.1%;
+  height: 2.23%;
+}
+
+.np-software-card-hotspot {
+  left: 68.82%;
+  top: 44.84%;
+  width: 9.86%;
+  height: 2.23%;
+}
+
+.np-footer-products-hotspot {
+  left: 72.6%;
+  top: 83.47%;
+  width: 4.5%;
+  height: 1.62%;
+}
+
+.np-footer-software-hotspot {
+  left: 72.6%;
+  top: 85.09%;
+  width: 4.5%;
+  height: 1.62%;
+}
+
+.np-footer-support-hotspot {
+  left: 72.6%;
+  top: 86.71%;
+  width: 4.5%;
+  height: 1.62%;
+}
+
+.np-footer-order-hotspot {
+  left: 72.6%;
+  top: 88.33%;
+  width: 4.5%;
+  height: 1.62%;
+}
+
+.np-footer-about-hotspot {
+  left: 72.6%;
+  top: 89.95%;
+  width: 4.5%;
+  height: 1.62%;
+}
+
+.np-footer-contact-hotspot {
+  left: 72.6%;
+  top: 91.57%;
+  width: 4.5%;
+  height: 1.62%;
+}
+
+.np-dropdown {
+  position: absolute;
+  z-index: 30;
+  left: 438px;
+  top: 89px;
+  min-width: 250px;
+  padding: 10px 0;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.np-dropdown--software {
+  left: 577px;
+}
+
+.np-dropdown--support {
+  left: 716px;
+}
+
+.np-dropdown a {
+  display: block;
+  padding: 8px 16px;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .np-page,
+  .np-frame {
+    min-width: 1053px;
+    width: 1053px;
+  }
+}

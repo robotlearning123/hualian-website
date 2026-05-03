@@ -1,0 +1,53 @@
+{
+  "source_pdf": "/Users/robert/Documents/New project 2/合肥幻联科技有限公司产品手册2026.pdf",
+  "extracted_at": "2026-05-02T05:33:20.968Z",
+  "pdf_pages": 18,
+  "text_files": {
+    "full_layout": "docs/source-material/pdf-extract/text/full-layout.txt",
+    "full_raw": "docs/source-material/pdf-extract/text/full-raw.txt",
+    "per_page_dir": "docs/source-material/pdf-extract/text/pages",
+    "per_page_count": 18
+  },
+  "rendered_pages": {
+    "dir": "docs/source-material/pdf-extract/pages-240dpi",
+    "dpi": 240,
+    "count": 18
+  },
+  "embedded_images": {
+    "dir": "docs/source-material/pdf-extract/embedded-images",
+    "manifest": "docs/source-material/pdf-extract/metadata/embedded-images-manifest.csv",
+    "count": 166,
+    "by_type": {
+      "image": 115,
+      "smask": 51
+    },
+    "by_page": {
+      "1": 7,
+      "2": 2,
+      "3": 0,
+      "4": 26,
+      "5": 10,
+      "6": 6,
+      "7": 8,
+      "8": 2,
+      "9": 8,
+      "10": 2,
+      "11": 2,
+      "12": 8,
+      "13": 4,
+      "14": 7,
+      "15": 8,
+      "16": 5,
+      "17": 26,
+      "18": 35
+    }
+  },
+  "structure": {
+    "xml": "docs/source-material/pdf-extract/structure/hualian-product-handbook-2026.xml",
+    "dir": "docs/source-material/pdf-extract/structure"
+  },
+  "metadata": {
+    "pdfinfo": "docs/source-material/pdf-extract/metadata/pdfinfo.txt",
+    "pdfimages_list": "docs/source-material/pdf-extract/metadata/pdfimages-list.txt"
+  }
+}

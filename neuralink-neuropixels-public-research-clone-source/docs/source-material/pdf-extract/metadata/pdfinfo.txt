@@ -1,0 +1,21 @@
+Title:           小册子
+Keywords:        DAHHimLtJCA,BAHCaCD_YuI,0
+Author:          常
+Creator:         Canva
+Producer:        Canva
+CreationDate:    Wed Apr 29 03:52:44 2026 EDT
+ModDate:         Wed Apr 29 03:54:47 2026 EDT
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           18
+Encrypted:       no
+Page size:       1190.25 x 807.75 pts
+Page rot:        0
+File size:       61737329 bytes
+Optimized:       no
+PDF version:     1.4

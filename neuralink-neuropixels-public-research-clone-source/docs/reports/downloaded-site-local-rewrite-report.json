@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-01T18:42:08.850Z",
+  "scanned_file_count": 471,
+  "changed_file_count": 2,
+  "replacement_count": 18,
+  "changed": [
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probes-np1-0.html",
+      "replacements": 9
+    },
+    {
+      "file": "downloaded-sites/neuropixels/www.neuropixels.org/probes-np1-0.orig",
+      "replacements": 9
+    }
+  ]
+}
