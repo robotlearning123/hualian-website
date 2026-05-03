@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Neuropixels</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/neuropixels.css">
+    <script src="scripts/site.js" defer></script>
+  </head>
+  <body class="np-page pixel-page">
+    <a class="np-skip" href="#np-main" data-skip-target="#np-main">Skip to Main Content</a>
+    <div class="pixel-frame np-frame" aria-hidden="true">
+      <picture>
+        <source media="(max-width: 700px)" srcset="assets/reference/neuropixels-mobile-reference.png">
+        <img class="pixel-shot" src="assets/reference/neuropixels-desktop-reference.png" alt="">
+      </picture>
+    </div>
+
+    <header class="semantic-layer" aria-label="Neuropixels header">
+      <a class="hotspot np-logo-hotspot" href="https://www.neuropixels.org/" aria-label="np logo.png"></a>
+      <nav aria-label="Site">
+        <a class="hotspot np-products-hotspot" href="https://www.neuropixels.org/products">Products</a>
+        <button class="hotspot np-products-toggle-hotspot" type="button" aria-label="Toggle Products" aria-expanded="false" data-toggle="#np-products-menu"></button>
+        <a class="hotspot np-software-hotspot" href="https://www.neuropixels.org/software">Software</a>
+        <button class="hotspot np-software-toggle-hotspot" type="button" aria-label="Toggle Software" aria-expanded="false" data-toggle="#np-software-menu"></button>
+        <a class="hotspot np-support-hotspot" href="https://www.neuropixels.org/support">Support</a>
+        <button class="hotspot np-support-toggle-hotspot" type="button" aria-label="Toggle Support" aria-expanded="false" data-toggle="#np-support-menu"></button>
+        <a class="hotspot np-order-hotspot" href="https://www.neuropixels.org/order">Order</a>
+        <a class="hotspot np-about-hotspot" href="https://www.neuropixels.org/about">About</a>
+        <a class="hotspot np-contact-hotspot" href="https://www.neuropixels.org/contact">Contact</a>
+      </nav>
+      <div class="np-dropdown" id="np-products-menu" hidden>
+        <a href="https://www.neuropixels.org/probes-and-probe-specific-accessories">Probes and Probe Specific Accessories</a>
+        <a href="https://www.neuropixels.org/system1-0">Systems</a>
+        <a href="https://www.neuropixels.org/specialty-products">Specialty Products</a>
+      </div>
+      <div class="np-dropdown np-dropdown--software" id="np-software-menu" hidden>
+        <a href="https://www.neuropixels.org/software">GUI Software</a>
+        <a href="https://www.neuropixels.org/software">PXIe Firmware</a>
+        <a href="https://www.neuropixels.org/software">Probe Calibration Files</a>
+      </div>
+      <div class="np-dropdown np-dropdown--support" id="np-support-menu" hidden>
+        <a href="https://www.neuropixels.org/support">User Manuals</a>
+        <a href="https://www.neuropixels.org/support">Community</a>
+        <a href="https://www.neuropixels.org/support">Training Course</a>
+        <a href="https://www.neuropixels.org/support">Soldering Assistance</a>
+        <a href="https://www.neuropixels.org/support">Design Files</a>
+        <a href="https://www.neuropixels.org/support">Product Issues</a>
+        <a href="https://www.neuropixels.org/support">FAQ</a>
+      </div>
+    </header>
+
+    <main class="semantic-layer" id="np-main" aria-label="Neuropixels homepage clone">
+      <h1 class="visually-hidden">A new era in electrophysiology with silicon probes: Large-scale neural recording with single cell resolution</h1>
+      <section class="visually-hidden" aria-label="Product cards">
+        <h2>Neuropixels Probes</h2>
+        <h2>Neuropixels System</h2>
+        <h2>Neuropixels Software</h2>
+      </section>
+      <a class="hotspot np-probes-card-hotspot" href="https://www.neuropixels.org/probes-and-probe-specific-accessories">Getting started</a>
+      <a class="hotspot np-system-card-hotspot" href="https://www.neuropixels.org/system1-0">Getting started</a>
+      <a class="hotspot np-software-card-hotspot" href="https://www.neuropixels.org/software">Getting Started</a>
+    </main>
+
+    <footer class="semantic-layer" aria-label="Footer">
+      <nav aria-label="Footer navigation">
+        <a class="hotspot np-footer-products-hotspot" href="https://www.neuropixels.org/products">Products</a>
+        <a class="hotspot np-footer-software-hotspot" href="https://www.neuropixels.org/software">Software</a>
+        <a class="hotspot np-footer-support-hotspot" href="https://www.neuropixels.org/support">Support</a>
+        <a class="hotspot np-footer-order-hotspot" href="https://www.neuropixels.org/order">Order</a>
+        <a class="hotspot np-footer-about-hotspot" href="https://www.neuropixels.org/about">About</a>
+        <a class="hotspot np-footer-contact-hotspot" href="https://www.neuropixels.org/contact">Contact</a>
+      </nav>
+      <p class="visually-hidden">neuropixels.sales@imec.be (Sales), neuropixels.info@imec.be (Info), Kapeldreef 75, 3001 Leuven, Belgium</p>
+      <p class="visually-hidden">© 2026 created for Neuropixels</p>
+    </footer>
+  </body>
+</html>

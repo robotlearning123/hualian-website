@@ -1,0 +1,7 @@
+.omx/
+output/
+node_modules/
+.deploy-temp/
+.DS_Store
+*.log
+*.tmp
