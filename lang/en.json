@@ -110,6 +110,22 @@
       "email": "Email: AstroMind@xnzlsmart.cn",
       "addr": "Address: Bailee Center South Tower 318, 888 Qianshan Rd, Shushan District, Hefei, Anhui, China",
       "cta": "Business Inquiry"
+    },
+    "scroll": "Scroll ↓",
+    "cine1": {
+      "eyebrow": "SpikeLink · Implant",
+      "title": "Hospital-grade BCI on a surgical tray",
+      "body": "SpikeLink wireless full-implant: silicon probes + gold contacts + jade signal pathway, from intra-op placement to long-term recording."
+    },
+    "cine2": {
+      "eyebrow": "NeuroBox · 2048 Channels",
+      "title": "High-throughput neural signals on screen — live",
+      "body": "0–30 kHz on-line sampling, live bandwidth tuning, multi-channel impedance. NeuroBox host + Headstage front-end — the shortest path from cortex to display."
+    },
+    "cine3": {
+      "eyebrow": "Rehab · Digital Center",
+      "title": "Bringing motor intent back to the limb",
+      "body": "Brain-controlled exoskeleton + closed-loop rehab algorithms. Joint with Anhui Provincial Hospital — flagship digital rehab center."
     }
   },
   "tech": {

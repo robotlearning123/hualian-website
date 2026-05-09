@@ -73,12 +73,14 @@ a {
   height: var(--header-height);
   padding: 0 clamp(18px, 4vw, 48px);
   border-bottom: 1px solid transparent;
-  background: linear-gradient(180deg, rgba(8, 10, 8, 0.6) 0%, rgba(8, 10, 8, 0) 100%);
+  background:
+    linear-gradient(180deg, rgba(8, 10, 8, 0.78) 0%, rgba(8, 10, 8, 0.32) 70%, rgba(8, 10, 8, 0) 100%);
+  backdrop-filter: blur(8px);
   transition: background 220ms ease, border-color 220ms ease, backdrop-filter 220ms ease;
 }
 
 .site-header.is-scrolled {
-  background: rgba(8, 10, 8, 0.82);
+  background: rgba(8, 10, 8, 0.86);
   border-bottom-color: rgba(246, 241, 232, 0.10);
   backdrop-filter: blur(18px);
 }
@@ -136,8 +138,15 @@ a {
 .brand-subtitle {
   margin-top: 5px;
   color: var(--ink-muted);
+  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
   font-size: 11px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.metric-label,
+.capability-kicker {
+  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
 }
 
 .primary-nav {
@@ -418,9 +427,8 @@ body[data-page="home"] .hero-section::before {
 
 .hero-scroll-cue {
   position: absolute;
-  left: 50%;
-  bottom: 22px;
-  transform: translateX(-50%);
+  left: 24px;
+  bottom: 18px;
   color: var(--ink-muted);
   font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
   font-size: 11px;
@@ -430,9 +438,13 @@ body[data-page="home"] .hero-section::before {
   pointer-events: none;
 }
 
+@media (max-height: 760px) {
+  .hero-scroll-cue { display: none; }
+}
+
 @keyframes cuePulse {
-  0%, 100% { opacity: 0.55; transform: translate(-50%, 0); }
-  50%      { opacity: 1;    transform: translate(-50%, 6px); }
+  0%, 100% { opacity: 0.55; transform: translateY(0); }
+  50%      { opacity: 1;    transform: translateY(6px); }
 }
 
 .lang-switch {
@@ -842,6 +854,36 @@ p {
 
 .media-band .eyebrow,
 .media-band h2,
+.media-band {
+  position: relative;
+}
+
+.media-band::before,
+.media-band::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 120px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.media-band::before {
+  top: -1px;
+  background: linear-gradient(180deg, rgba(11, 12, 11, 1) 0%, rgba(246, 241, 232, 0) 100%);
+}
+
+.media-band::after {
+  bottom: -1px;
+  background: linear-gradient(0deg, rgba(11, 12, 11, 1) 0%, rgba(246, 241, 232, 0) 100%);
+}
+
+.media-band > * {
+  position: relative;
+  z-index: 2;
+}
+
 .media-band h3 {
   color: #12130f;
 }
