@@ -30,6 +30,15 @@
     "toggle": "Toggle navigation"
   },
   "footer": {
+    "name": "Hefei Huanlian Technology Co., Ltd.",
+    "sub": "AstroMind · Huanlian BCI",
+    "h": {
+      "site": "Site",
+      "more": "More",
+      "contact": "Contact",
+      "pdf": "Launch PDF"
+    },
+    "addr": "Bailee Center South Tower 318<br>888 Qianshan Rd, Hefei",
     "copy": "© 2026 Hefei Huanlian Technology Co., Ltd. · AstroMind · ICP placeholder"
   },
   "home": {
@@ -209,8 +218,8 @@
   "platform": {
     "hero": {
       "kicker": "Product Matrix",
-      "title": "Medical + Research full suite",
-      "lede": "From SpikeLink wireless implant, to NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, MPM targeting, and HD-MEA in-vitro arrays — implant to software.",
+      "title": "Product Matrix",
+      "lede": "Medical + research full stack: SpikeLink wireless implant, NeuroBox 2048-ch acquisition, Michigan / ECoG / microwire electrodes, MPM targeting, HD-MEA in-vitro arrays.",
       "cap": "SpikeLink · NeuroBox · MPM"
     },
     "modules": {
@@ -323,8 +332,8 @@
   "apps": {
     "hero": {
       "kicker": "Applications",
-      "title": "Four scenes — from research bench to at-home life",
-      "lede": "One hardware + software stack, configured per scene, spans lab, clinic, ward, and daily life."
+      "title": "Four Scenes",
+      "lede": "From research bench to at-home life · one hardware + software stack, configured per scene, spans lab, clinic, ward, and daily life."
     },
     "list": {
       "kicker": "Four scenes",
@@ -359,8 +368,8 @@
   "partners": {
     "hero": {
       "kicker": "Partners",
-      "title": "Universities, medical schools, top hospitals",
-      "lede": "Serving research institutions across China and abroad; co-building a flagship digital BCI rehab center with Anhui Provincial Hospital."
+      "title": "Partner Matrix",
+      "lede": "Universities, medical schools, top hospitals · serving research institutions across China; co-building a flagship digital BCI rehab center with Anhui Provincial Hospital."
     },
     "list": {
       "kicker": "Partner matrix",
@@ -391,8 +400,8 @@
   "contact": {
     "hero": {
       "kicker": "Contact",
-      "title": "Hefei Huanlian Technology Co., Ltd.",
-      "lede": "Tell us your scene, institution, and procurement type. We reply with a complete plan and quote within 1-2 business days."
+      "title": "Contact Huanlian",
+      "lede": "Hefei Huanlian Technology · tell us your scene, institution, and procurement form. We reply with a full plan and quote within 1-2 business days."
     },
     "info": {
       "kicker": "Direct contact",
@@ -430,7 +439,7 @@
   "shop": {
     "hero": {
       "kicker": "Shop",
-      "title": "Equipment catalog & quote",
+      "title": "Equipment & Quote",
       "lede": "Medical-grade and research-grade equipment ships through tailored quotes — configure to your protocol or clinical workflow.",
       "tag1": "Implantable",
       "tag2": "Research",
