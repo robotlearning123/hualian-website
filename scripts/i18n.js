@@ -70,6 +70,12 @@
     return loadJSON(`lang/${code}.json`);
   }
 
+  function revealReady() {
+    const root = document.documentElement;
+    root.classList.remove("i18n-await");
+    root.classList.add("i18n-ready");
+  }
+
   async function setLang(code) {
     const target = supportedCodes().includes(code) ? code : registry.default;
     try {
@@ -78,6 +84,7 @@
       const meta = getLangMeta(target);
       document.documentElement.lang = meta.htmlLang || target;
       localStorage.setItem(STORE_KEY, target);
+      revealReady();
 
       const url = new URL(location.href);
       if (target === registry.default) url.searchParams.delete("lang");
@@ -97,6 +104,7 @@
       });
     } catch (err) {
       console.warn("i18n load failed:", err);
+      revealReady();
     }
   }
 
@@ -147,6 +155,10 @@
       }
     });
   }
+
+  // Safety net: even if registry/dict fail to load, never leave the body
+  // hidden indefinitely.
+  setTimeout(revealReady, 1200);
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init);

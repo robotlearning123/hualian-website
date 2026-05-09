@@ -174,7 +174,7 @@
   },
   "tech": {
     "hero": {
-      "kicker": "Technology · 技术",
+      "kicker": "Technology",
       "title": "Vertically integrated",
       "lede": "Implantable BCI tech roadmap — biocompatible electrodes, low-noise high-throughput acquisition, AI-guided implantation and real-time signal decoding. End-to-end in-house.",
       "cap": "NeuroBox Lab"
@@ -329,13 +329,7 @@
       "tag6": "Full Rehab",
       "h6": "Rehabilitation Suite",
       "p6": "Rehab robots, exoskeleton, limb / hand / cognitive / speech / swallowing training, TI & transcranial modulation.",
-      "cta6": "Discuss rehab center →",
-      "p1Title": "",
-      "p2Title": "",
-      "p3Title": "",
-      "p4Title": "",
-      "p5Title": "",
-      "p6Title": ""
+      "cta6": "Discuss rehab center →"
     },
     "launch": {
       "kicker": "Launch Material",

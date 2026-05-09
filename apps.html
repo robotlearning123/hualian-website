@@ -18,7 +18,26 @@
     <meta property="og:url" content="https://huanlian-site.pages.dev/apps">
     <meta property="og:image" content="https://huanlian-site.pages.dev/assets/images/hero-implant.png">
     <meta name="twitter:card" content="summary_large_image">
-  </head>
+    <script>
+    /* Inline gate: hide body before paint when target lang ≠ default (zh).
+       Removed by scripts/i18n.js after dict applied (or 1.2s timeout). */
+    (function () {
+      try {
+        var url = new URL(location.href);
+        var fromUrl = url.searchParams.get('lang');
+        var stored = localStorage.getItem('huanlian.lang');
+        var nav = (navigator.language || '').toLowerCase();
+        var target = fromUrl || stored;
+        var willBeNonDefault =
+          (target && target !== 'zh') ||
+          (!target && nav && !nav.startsWith('zh'));
+        if (willBeNonDefault) {
+          document.documentElement.classList.add('i18n-await');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
   <body data-page="apps">
     <a class="skip-to-content" href="#main-content">跳到正文 / Skip to content</a>
     <header class="site-header" data-site-header>

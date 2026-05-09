@@ -2537,3 +2537,23 @@ figure.model-stage {
     justify-self: start;
   }
 }
+
+/* FOUL fix: hide body until i18n applies for non-default languages.
+   Inline <head> script sets html.i18n-await; i18n.js removes it after
+   applyDict (or after a 1.2s safety timeout). */
+html.i18n-await body {
+  opacity: 0;
+}
+
+html.i18n-ready body,
+html:not(.i18n-await) body {
+  opacity: 1;
+  transition: opacity 0.18s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.i18n-ready body,
+  html:not(.i18n-await) body {
+    transition: none;
+  }
+}

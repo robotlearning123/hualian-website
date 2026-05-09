@@ -2,6 +2,22 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — FOUL fix + zh/en parity polish (FIX-022)
+
+- **FIX-022a** `bug(i18n)` — Flash of Unlocalized Content on EN load.
+  Pages painted Chinese first, then i18n.js asynchronously rewrote to
+  English — visible flash. Added an inline `<head>` gate script that
+  synchronously detects target language (`?lang=` / localStorage /
+  `navigator.language`) and adds `html.i18n-await` only when target ≠
+  default. New CSS hides body opacity:0 while `.i18n-await`. `i18n.js`
+  removes the class after `applyDict()` (and a 1.2s safety timeout
+  prevents permanent invisibility on dict failure). 18ms fade-in.
+- **FIX-022b** `polish(i18n)` — strict zh/en parity audit. Found 1 EN
+  string still containing Chinese (`tech.hero.kicker` was `Technology · 技术`)
+  and 6 orphan empty stub keys (`platform.services.p1Title..p6Title`).
+  EN now `Technology` (matches other hero kickers like `Applications`,
+  `Partners`, `Shop`, `Contact`); stubs removed.
+
 ## 2026-05-09 — site-wide i18n leak sweep (FIX-021)
 
 - **FIX-021** `bug(i18n)` — full audit of all `<a>` and `<figcaption>` text
