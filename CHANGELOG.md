@@ -2,6 +2,34 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — design-review fix pass (5 commits)
+
+After running `/design-review` against the live site (https://huanlian-site.pages.dev/),
+applied 5 atomic fixes:
+
+- **FIX-001** `style(a11y)` — touch targets ≥44px + unified H2 scale (`f5baecd`)
+  - `.primary-nav a`: min-height 44 + padding 8/12 (was 28×36 hit area)
+  - `.lang-switch`: min 44×44 + button defaults
+  - h2 base: clamp(30,4.4vw,56) — was clamp(32,5vw,68)
+  - `.cinematic-band h2`: clamp(36,5.5vw,72) — was clamp(40,7vw,96)
+  - Two-tier scale (56 / 72) replaces 3-tier 68/96 jumble.
+- **FIX-002** `perf` — lazy autoplay for looping videos via IntersectionObserver (`65b46c6`)
+  - Strips `autoplay` from all `<video autoplay muted loop>`; preload=metadata
+  - Plays only when ≥15% in viewport; pauses on exit
+  - Saves ~70 MB initial autoplay across home page on phones.
+- **FIX-003** `ux` — differentiate 16 shop card buttons (`19cca4c`)
+  - Replaced generic '咨询' with verb+product labels: 询价 SpikeLink / ECoG /
+    NeuroBox / Michigan / Microwire / MPM / Headstage / VR / HD-MEA;
+    申请软件演示 (NeuroAnalysis); 咨询康复方案 / 康复机器人 / TI 方案;
+    了解脑电帽 / 情绪分析 / BCI 眼镜.
+- **FIX-004** `feat(tech)` — figcaptions on all 4 stack figures + final CTA (`7119516`)
+  - `.stack-caption` mono 12px steel-gray over gradient overlay
+  - New contact-band CTA at bottom of /technology with mailto + link to /platform
+  - i18n keys `tech.cta.*` added in zh/en
+- **FIX-005** `a11y` — restore figcaptions on home + platform launch videos (`caadb44`)
+  - 联盟发布主题分享 / Alliance Launch Keynote
+  - i18n keys `home.launch.cap1` / `platform.launch.cap2`
+
 ## 2026-05-09
 
 ### Reproducibility
