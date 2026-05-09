@@ -2,6 +2,23 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — i18n leak fix + partners density + eyebrow unification (FIX-020)
+
+- **FIX-020a** `bug(i18n)` — three home cinematic banners (Cleanroom, Demo,
+  Decode) had hardcoded Chinese text with no `data-i18n`, so toggling EN
+  left them in Chinese. Added `home.cineFab.*`, `home.demo.*`,
+  `home.cineDecode.*` keys (eyebrow / title / body) to both `zh.json` and
+  `en.json` and wired the attributes in `index.html`.
+- **FIX-020b** `polish(eyebrow)` — eyebrow pattern unified to
+  `English · 中文`. `产品演示 · Demo` → `Demo · 产品演示`,
+  `康复 · 数字化中心` → `Rehab · 数字化中心`. Cleanroom / Decode already
+  matched.
+- **FIX-020c** `feat(partners)` — added stats band between evidence-band
+  and the strategic cinematic on `/partners`: 10+ / 5 / 4 / 3 across
+  university+hospital partners, tier-3 clinical, research schools, and
+  academic collaboration framework. New `partners.stats.*` keys; new
+  `.hero-proof.partners-stats` 4-col CSS that collapses to 2-col @ 900px.
+
 ## 2026-05-09 — hero polish + bilingual eyebrow consistency (FIX-019)
 
 - **FIX-019** `polish(hero)` — eyebrow / H1 split refined on platform + technology:

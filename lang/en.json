@@ -155,6 +155,21 @@
       "eyebrow": "Rehab · Digital Center",
       "title": "Bringing motor intent back to the limb",
       "body": "Brain-controlled exoskeleton + closed-loop rehab algorithms. Joint with Anhui Provincial Hospital — flagship digital rehab center."
+    },
+    "cineFab": {
+      "eyebrow": "Cleanroom · Fab",
+      "title": "Chips ship from our cleanroom",
+      "body": "Silicon probes, dissolvable neural interface materials and high-density contact arrays — fabricated on our own micro/nano line. From mask to package, every step matches electrophysiology standards."
+    },
+    "cineDecode": {
+      "eyebrow": "Decode · AI",
+      "title": "Turning neural activity into intent",
+      "body": "NeuroAnalysis + in-house AI decode raw multi-channel neural signals into movement, language and emotion intents — closing the loop for BCI control."
+    },
+    "demo": {
+      "eyebrow": "Demo · Product",
+      "title": "Hardware-to-software end-to-end",
+      "body": "Real product walkthrough showing SpikeLink + NeuroBox + NeuroAnalysis across research and clinical scenarios."
     }
   },
   "tech": {
@@ -395,6 +410,14 @@
       "lede": "Tell us your department or lab focus; we'll match you to a partnership model and the 3-year research program.",
       "cta1": "Submit Interest",
       "cta2": "View Capabilities"
+    },
+    "stats": {
+      "kicker": "Partners · Data",
+      "title": "A matrix already in the field",
+      "m1": "University & hospital research partners",
+      "m2": "Tier-3 hospital clinical partners",
+      "m3": "Research universities / med schools",
+      "m4": "Year collaboration framework"
     }
   },
   "contact": {
