@@ -2,6 +2,20 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — site-wide i18n leak sweep (FIX-021)
+
+- **FIX-021** `bug(i18n)` — full audit of all `<a>` and `<figcaption>` text
+  for hardcoded Chinese without `data-i18n`. Closed 27 leaks:
+  - `shop.html`: 16 product CTAs (询价 SpikeLink, 申请软件演示, 咨询康复方案
+    等) bound to `shop.cta.{spikelink|ecog|michigan|microwire|neurobox|mpm
+    |headstage|neuroanalysis|vr|hdmea|exo|ti|robot|eegcap|emotion|glasses}`
+  - `technology.html`: 4 stack-caption figcaptions → `tech.stack.cap{1..4}`
+  - `platform.html`: 4 tab figcaptions → `platform.tab.cap{1..4}`
+  - `apps.html` / `contact.html` / `partners.html`: hero figcaptions →
+    `{apps|contact|partners}.hero.cap`
+  - Re-scan: 0 hardcoded Chinese remaining (only the bilingual
+    skip-to-content link, which is by design).
+
 ## 2026-05-09 — i18n leak fix + partners density + eyebrow unification (FIX-020)
 
 - **FIX-020a** `bug(i18n)` — three home cinematic banners (Cleanroom, Demo,

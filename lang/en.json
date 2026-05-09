@@ -194,7 +194,11 @@
       "t3": "Smart Targeting",
       "p3": "MPM multi-arm targeting platform — parallel implantation of multiple electrodes / fibers / injectors, Neuropixels-recommended.",
       "t4": "Real-Time Software & Decoding",
-      "p4": "NeuroAnalysis: real-time waveform, binary store, one-click spike sorting, peri-event analysis, AI signal parsing & visualization."
+      "p4": "NeuroAnalysis: real-time waveform, binary store, one-click spike sorting, peri-event analysis, AI signal parsing & visualization.",
+      "cap1": "ECoG flexible cortical array",
+      "cap2": "NeuroBox host / Headstage",
+      "cap3": "MPM multi-arm implant platform",
+      "cap4": "NeuroAnalysis · spike sorting"
     },
     "lab": {
       "kicker": "Lab to Bedside",
@@ -342,13 +346,20 @@
       "cap1": "Implant Macro",
       "cap2": "Alliance Launch Keynote",
       "cap3": "ECoG Array"
+    },
+    "tab": {
+      "cap1": "SpikeLink wireless implant",
+      "cap2": "ECoG / Michigan / Microwire",
+      "cap3": "NeuroBox / Headstage / MPM",
+      "cap4": "NeuroAnalysis · VR · HD-MEA"
     }
   },
   "apps": {
     "hero": {
       "kicker": "Applications",
       "title": "Four Scenes",
-      "lede": "From research bench to at-home life · one hardware + software stack, configured per scene, spans lab, clinic, ward, and daily life."
+      "lede": "From research bench to at-home life · one hardware + software stack, configured per scene, spans lab, clinic, ward, and daily life.",
+      "cap": "Four scenarios"
     },
     "list": {
       "kicker": "Four scenes",
@@ -384,7 +395,8 @@
     "hero": {
       "kicker": "Partners",
       "title": "Partner Matrix",
-      "lede": "Universities, medical schools, top hospitals · serving research institutions across China; co-building a flagship digital BCI rehab center with Anhui Provincial Hospital."
+      "lede": "Universities, medical schools, top hospitals · serving research institutions across China; co-building a flagship digital BCI rehab center with Anhui Provincial Hospital.",
+      "cap": "Research network"
     },
     "list": {
       "kicker": "Partner matrix",
@@ -424,7 +436,8 @@
     "hero": {
       "kicker": "Contact",
       "title": "Contact Huanlian",
-      "lede": "Hefei Huanlian Technology · tell us your scene, institution, and procurement form. We reply with a full plan and quote within 1-2 business days."
+      "lede": "Hefei Huanlian Technology · tell us your scene, institution, and procurement form. We reply with a full plan and quote within 1-2 business days.",
+      "cap": "Huanlian HQ"
     },
     "info": {
       "kicker": "Direct contact",
@@ -583,6 +596,24 @@
       "tel": "Tel: 0551-65250690 ｜ Email: AstroMind@xnzlsmart.cn",
       "lede": "Specify use case (research / clinical / at-home), channel & electrode spec, institution & procurement type. We reply with a full configuration and quote within 1-2 business days.",
       "cta": "Send Inquiry"
+    },
+    "cta": {
+      "spikelink": "Inquire SpikeLink",
+      "ecog": "Inquire ECoG",
+      "michigan": "Inquire Michigan",
+      "microwire": "Inquire microwire",
+      "neurobox": "Inquire NeuroBox",
+      "mpm": "Inquire MPM",
+      "headstage": "Inquire Headstage",
+      "neuroanalysis": "Request software demo",
+      "vr": "Inquire VR system",
+      "hdmea": "Inquire HD-MEA",
+      "exo": "Consult rehab plan",
+      "ti": "Consult TI plan",
+      "robot": "Consult rehab robot",
+      "eegcap": "About EEG cap",
+      "emotion": "About emotion analyzer",
+      "glasses": "About BCI glasses"
     }
   }
 }
