@@ -1980,7 +1980,7 @@ figure.model-stage {
   font-weight: 700;
 }
 
-/* Research support services — card grid with photo bg */
+/* Research support services — 3×2 card grid with photo bg */
 .services-band {
   background: var(--bg-deep);
   color: var(--ink);
@@ -1988,9 +1988,17 @@ figure.model-stage {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
   margin-top: 44px;
+}
+
+@media (max-width: 1000px) {
+  .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  .services-grid { grid-template-columns: 1fr; }
 }
 
 .service-card {
@@ -1998,34 +2006,36 @@ figure.model-stage {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-height: 320px;
-  padding: 26px 24px 24px;
+  min-height: 360px;
+  padding: 28px 24px 24px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
-  background:
-    linear-gradient(180deg, rgba(11, 12, 11, 0.62) 0%, rgba(11, 12, 11, 0.92) 60%, rgba(11, 12, 11, 0.97) 100%),
-    var(--bg-image, none),
-    var(--bg-panel);
-  background-size: cover, cover, auto;
-  background-position: center, center, center;
-  transition: transform 220ms ease, border-color 220ms ease;
   isolation: isolate;
+  background-color: var(--bg-panel);
+  background-image: var(--bg-image, none);
+  background-size: cover;
+  background-position: center;
+  transition: transform 280ms ease, border-color 280ms ease;
 }
 
-.service-card::after {
+.service-card::before {
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: inherit;
-  background: linear-gradient(180deg, transparent 30%, rgba(0,0,0,0.35) 100%);
-  pointer-events: none;
   z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(170deg, rgba(11,12,11,0.32) 0%, rgba(11,12,11,0.78) 55%, rgba(11,12,11,0.96) 100%);
+  transition: background 280ms ease;
 }
 
 .service-card:hover {
   transform: translateY(-3px);
-  border-color: var(--jade-soft);
+  border-color: var(--jade);
+}
+
+.service-card:hover::before {
+  background: linear-gradient(170deg, rgba(11,12,11,0.20) 0%, rgba(11,12,11,0.65) 55%, rgba(11,12,11,0.94) 100%);
 }
 
 .service-num {
