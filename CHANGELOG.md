@@ -2,6 +2,21 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — best-quality polish pass (FIX-006..009)
+
+- **FIX-006** `a11y` — semantic `<figure>` for 16 product thumbs in shop (`c95028a`)
+- **FIX-007** `perf` — hover-to-play for 5 shop product card videos; cinematic banners stay autoplay-in-viewport (`3b063e0`)
+- **FIX-008** `style` — alternate cinematic banner alignment (bottom-left ↔ bottom-right) on home to break visual rhythm (`b527a14`)
+- **FIX-009** `feat` — SEO / a11y / perf polish bundle (`8c1c624`)
+  - favicon.svg + favicon.jpg, robots.txt, sitemap.xml with hreflang
+  - canonical / OG / Twitter card / theme-color on all 4 pages
+  - JSON-LD Organization schema on home (name, alternateName, address, tel, email)
+  - Skip-to-content link → `<main id='main-content'>` on every page
+  - `:focus-visible` 2px jade outline; `::selection` jade highlight
+  - `text-wrap: balance` on H1/H2/H3; `pretty` on p
+  - `color-scheme: dark`, `text-rendering: optimizeLegibility`, font smoothing
+  - `font-variant-numeric: tabular-nums` on `.metric-value`
+
 ## 2026-05-09 — design-review fix pass (5 commits)
 
 After running `/design-review` against the live site (https://huanlian-site.pages.dev/),
