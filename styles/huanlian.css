@@ -1443,6 +1443,17 @@ figure.model-stage {
   pointer-events: none;
 }
 
+.stack-caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  z-index: 1;
+  padding: 14px 18px;
+  color: var(--ink-soft);
+  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 900px) {
   .stack-list .stack-with-media,
   .stack-list .stack-with-media:nth-child(even) {

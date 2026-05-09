@@ -177,6 +177,13 @@
       "kicker": "Academic",
       "title": "Academic services & 3-year research partnership",
       "lede": "Team led by national-level talent, with multiple high-impact SCI papers per year. Lead investigator holds joint professor appointments at top hospitals. Services: top-journal support, national-level grant guidance, research differentiation, lab exchange, international collaboration, talent recruitment. The 3-year partnership program builds research foundation, drives output, and grows sustainable BCI capability for hospital teams."
+    },
+    "cta": {
+      "kicker": "Next step",
+      "title": "Wire the full stack into your lab",
+      "lede": "Tell us your use case and channel spec; we reply with a complete plan and quote within 1-2 business days.",
+      "cta1": "Send Inquiry",
+      "cta2": "View Products"
     }
   },
   "platform": {
