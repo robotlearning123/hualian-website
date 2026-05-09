@@ -25,6 +25,38 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus-visible {
+  outline: 2px solid var(--jade);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline-offset: 4px;
+}
+
+::selection {
+  background: var(--jade);
+  color: #0b0c0b;
+}
+
+.metric-value {
+  font-variant-numeric: tabular-nums;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
 }
 
 body {
@@ -49,6 +81,29 @@ a {
 button,
 a {
   -webkit-tap-highlight-color: transparent;
+}
+
+.skip-to-content {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: #0b0c0b;
+  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  transform: translateY(-200%);
+  transition: transform 180ms ease;
+}
+
+.skip-to-content:focus {
+  transform: translateY(0);
+  outline: 2px solid var(--jade);
+  outline-offset: 3px;
 }
 
 .sr-only {
