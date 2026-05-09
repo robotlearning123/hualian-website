@@ -2,6 +2,26 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — IA + module redesign (FIX-010..012)
+
+- **FIX-010** `feat(platform)` — Product Modules redesigned (`fd8428b`)
+  - Tab buttons: chinese label + mono subtitle (SpikeLink / 3 系列 / NeuroBox · MPM / NeuroAnalysis · HD-MEA)
+  - Tab content: image left + content right grid; real spec table (dl/dt/dd)
+    showing 32-256 ch, 0-30 kHz, 2-14 mm; per-tab CTAs (询价 / 查看商城)
+  - 360ms cubic-bezier fade between tabs
+- **FIX-011** `feat(platform)` — Research Support Services upgraded (`fd8428b`)
+  - 6 cards in auto-fit grid with per-card photo bg + dark overlay
+  - amber numeral + tag pill + h3 + body + jade arrow CTA per card
+- **FIX-012** `feat(IA)` — 3 new standalone pages + nav update (`fd8428b`)
+  - `apps.html` — 4 application scenarios + 2 cinematic banners + CTA
+  - `partners.html` — partner cards + strategic banner + CTA
+  - `contact.html` — 3 contact-method cards + email-template checklist
+    + prefilled mailto body
+  - Home: removed ~110 lines of duplicate Apps/Partners/Contact content,
+    replaced with a 3-card teaser linking to the new pages
+  - Top nav across all 7 pages now links apps.html / partners.html /
+    contact.html (no more #anchor jumps)
+
 ## 2026-05-09 — best-quality polish pass (FIX-006..009)
 
 - **FIX-006** `a11y` — semantic `<figure>` for 16 product thumbs in shop (`c95028a`)
