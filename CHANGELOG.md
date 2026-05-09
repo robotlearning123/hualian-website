@@ -2,6 +2,12 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — footer addr render fix (FIX-018)
+
+- **FIX-018** `bug(footer)` — `footer.addr` switched from `data-i18n` (textContent)
+  to `data-i18n-html` (innerHTML) on all 7 pages so the embedded `<br>` between
+  street and suite renders as a line break instead of a literal `<br>` token.
+
 ## 2026-05-09 — IA + module redesign (FIX-010..012)
 
 - **FIX-010** `feat(platform)` — Product Modules redesigned (`fd8428b`)
