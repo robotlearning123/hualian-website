@@ -32,30 +32,52 @@
     targets.forEach((el) => io.observe(el));
   }
 
-  // Lazy autoplay: only play looping muted videos when in viewport
-  // (saves ~70 MB initial autoplay across home page on phones)
+  // Lazy autoplay for cinematic / hero loops; hover-to-play for shop cards
   if ("IntersectionObserver" in window) {
-    const lazyVideos = document.querySelectorAll("video[autoplay][muted][loop]");
-    lazyVideos.forEach((v) => {
+    const allLooping = document.querySelectorAll("video[autoplay][muted][loop]");
+    const cardVideos = [];
+    const inViewVideos = [];
+    allLooping.forEach((v) => {
       v.removeAttribute("autoplay");
       v.preload = "metadata";
-      v.dataset.lazyAutoplay = "1";
       try { v.pause(); } catch (e) {}
+      if (v.closest(".product-thumb")) {
+        cardVideos.push(v);
+      } else {
+        inViewVideos.push(v);
+      }
     });
-    const playObserver = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          const el = entry.target;
-          if (entry.isIntersecting) {
-            if (el.paused) el.play().catch(() => {});
-          } else {
-            if (!el.paused) el.pause();
-          }
-        });
-      },
-      { rootMargin: "0px", threshold: 0.15 }
-    );
-    lazyVideos.forEach((v) => playObserver.observe(v));
+    // In-view autoplay: cinematic banners, hero, demo backgrounds
+    if (inViewVideos.length) {
+      const playObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const el = entry.target;
+            if (entry.isIntersecting) {
+              if (el.paused) el.play().catch(() => {});
+            } else {
+              if (!el.paused) el.pause();
+            }
+          });
+        },
+        { rootMargin: "0px", threshold: 0.15 }
+      );
+      inViewVideos.forEach((v) => playObserver.observe(v));
+    }
+    // Hover-to-play: shop product card thumbnails. Saves CPU on a 16-card grid.
+    cardVideos.forEach((v) => {
+      const fig = v.closest(".product-thumb");
+      const start = () => v.play().catch(() => {});
+      const stop = () => { v.pause(); v.currentTime = 0; };
+      fig.addEventListener("pointerenter", start);
+      fig.addEventListener("pointerleave", stop);
+      fig.addEventListener("focusin", start);
+      fig.addEventListener("focusout", stop);
+      // Touch: tap once to start, tap again to stop
+      fig.addEventListener("touchstart", () => {
+        if (v.paused) start(); else stop();
+      }, { passive: true });
+    });
   }
 
   // Soft parallax on cinematic banner backgrounds
