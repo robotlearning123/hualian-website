@@ -431,6 +431,21 @@ a {
   padding: clamp(48px, 8vw, 120px) clamp(20px, 5vw, 80px);
 }
 
+.cinematic-band[data-align="bottom-right"] {
+  display: grid;
+  align-items: end;
+  justify-items: end;
+  padding: clamp(48px, 8vw, 120px) clamp(20px, 5vw, 80px);
+}
+
+.cinematic-band[data-align="bottom-right"] .cinematic-copy {
+  text-align: right;
+}
+
+.cinematic-band[data-align="bottom-right"] .cinematic-eyebrow {
+  margin-left: auto;
+}
+
 .cinematic-band[data-align="center"] {
   display: grid;
   place-items: center;
