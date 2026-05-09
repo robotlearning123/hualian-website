@@ -32,6 +32,32 @@
     targets.forEach((el) => io.observe(el));
   }
 
+  // Lazy autoplay: only play looping muted videos when in viewport
+  // (saves ~70 MB initial autoplay across home page on phones)
+  if ("IntersectionObserver" in window) {
+    const lazyVideos = document.querySelectorAll("video[autoplay][muted][loop]");
+    lazyVideos.forEach((v) => {
+      v.removeAttribute("autoplay");
+      v.preload = "metadata";
+      v.dataset.lazyAutoplay = "1";
+      try { v.pause(); } catch (e) {}
+    });
+    const playObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const el = entry.target;
+          if (entry.isIntersecting) {
+            if (el.paused) el.play().catch(() => {});
+          } else {
+            if (!el.paused) el.pause();
+          }
+        });
+      },
+      { rootMargin: "0px", threshold: 0.15 }
+    );
+    lazyVideos.forEach((v) => playObserver.observe(v));
+  }
+
   // Soft parallax on cinematic banner backgrounds
   if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     const bgs = document.querySelectorAll(".cinematic-band > .cinematic-bg");
