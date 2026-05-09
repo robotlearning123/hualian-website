@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "homeTitle": "AstroMind | Hefei Huanlian Technology · Implantable BCI",
+    "homeDesc": "Hefei Huanlian Technology (AstroMind) — implantable BCI systems R&D and industrialization. SpikeLink wireless implant, NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, HD-MEA arrays.",
+    "techTitle": "Technology | AstroMind · Hefei Huanlian",
+    "techDesc": "AstroMind technology stack: high-throughput electrodes, neural acquisition, signal analysis software, in-vitro HD-MEAs.",
+    "platformTitle": "Products | AstroMind · Hefei Huanlian",
+    "platformDesc": "Product matrix: SpikeLink wireless implant, NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, Neuropixels-ready, MPM targeting, HD-MEAs.",
+    "shopTitle": "Shop | AstroMind · Hefei Huanlian",
+    "shopDesc": "AstroMind shop: implantable BCI, acquisition systems, electrodes, rehabilitation gear, lifestyle BCI."
+  },
+  "brand": {
+    "name": "AstroMind",
+    "subtitle": "Huanlian BCI"
+  },
+  "nav": {
+    "home": "Home",
+    "tech": "Technology",
+    "platform": "Products",
+    "shop": "Shop",
+    "apps": "Apps",
+    "partners": "Partners",
+    "contact": "Contact",
+    "toggle": "Toggle navigation"
+  },
+  "footer": {
+    "copy": "© 2026 Hefei Huanlian Technology Co., Ltd. · AstroMind · ICP placeholder"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Hefei Huanlian Technology · Implantable BCI System",
+      "title": "AstroMind",
+      "lede": "Self-controlled high-throughput neural acquisition, implantable electrodes, stimulation and clinical translation. Full-stack BCI from research to in-hospital rehabilitation.",
+      "cta1": "View Products",
+      "cta2": "Technology",
+      "metric1": "NeuroBox channels",
+      "metric2": "Michigan silicon array",
+      "metric3": "Research partners"
+    },
+    "intro": {
+      "kicker": "About",
+      "title": "Hefei Huanlian — Anhui's leading implantable BCI company",
+      "lede": "Hefei Huanlian Technology (AstroMind) specializes in implantable BCI systems R&D and industrialization, covering high-end implantable electrodes, high-throughput acquisition, and research services. Core team: materials science, micro-nano fabrication, chip design, neuroelectrophysiology, algorithms — with mastered tech in dissolvable neural materials, silicon-probe nanofabrication, and high-frequency signal acquisition."
+    },
+    "cap": {
+      "k1": "Devices",
+      "t1": "Implantable BCI",
+      "p1": "SpikeLink wireless implant, Michigan silicon, ECoG flexible, microwire electrodes, NeuroBox 2048-channel, HD-MEA.",
+      "k2": "Research",
+      "t2": "Research Services",
+      "p2": "Lab solutions, animal models, clinical translation, neural data analysis, 3-year academic partnerships.",
+      "k3": "Clinical",
+      "t3": "Clinical Rehab",
+      "p3": "Rehab robots, exoskeletons, transcranial stim, TI interferometric — joint digital rehab centers with top hospitals.",
+      "k4": "Lifestyle",
+      "t4": "Lifestyle BCI",
+      "p4": "EEG caps, wave testers, emotion analyzers, BCI glasses — wearables for daily health."
+    },
+    "pipe": {
+      "kicker": "Pipeline",
+      "title": "From implant interface to clinical translation",
+      "sub": "Three scenes — lab, clinic, at-home — covered by five solutions and four product lines.",
+      "t1": "Implantable Electrodes",
+      "p1": "Michigan silicon, ECoG flexible, microwire arrays — Spike + LFP + microstimulation.",
+      "t2": "Acquisition & Targeting",
+      "p2": "NeuroBox host, Headstage, MPM multi-arm targeting, Neuropixels-ready.",
+      "t3": "Analysis & Decoding",
+      "p3": "NeuroAnalysis, AI signal parsing, spike sorting, correlated encoding.",
+      "t4": "Clinic & Rehab",
+      "p4": "SpikeLink full-implant, rehab suites, TI / transcranial mod, at-home BCI."
+    },
+    "launch": {
+      "kicker": "Launch",
+      "title": "Anhui BCI Alliance · Implantable BCI Launch",
+      "lede": "As a member of the Anhui BCI Alliance, Huanlian co-launched a domestic implantable BCI series, advancing high-throughput neural interfaces from lab to clinic.",
+      "cta1": "Launch PDF",
+      "cta2": "Get a Quote",
+      "cap2": "Implant Macro",
+      "cap3": "Lab Floor"
+    },
+    "apps": {
+      "kicker": "Applications",
+      "title": "Application Domains",
+      "t1": "Basic Neuroscience",
+      "p1": "Multi-channel in-vivo electrophysiology, optogenetics, long-term stable recording, precise brain-region targeting — for circuits and coding research.",
+      "t2": "Clinical & Brain-Controlled Devices",
+      "p2": "SpikeLink wireless full-implant + brain-controlled exoskeleton — motor decoding, closed-loop rehab, neural modulation.",
+      "t3": "Rehabilitation Wards",
+      "p3": "Joint digital rehab center with Anhui Provincial Hospital — limbs, hand, cognitive, speech, swallowing.",
+      "t4": "At-Home Health",
+      "p4": "EEG caps, emotion analyzers, BCI glasses — wearables that bring BCI to daily life."
+    },
+    "partners": {
+      "kicker": "Partners",
+      "title": "Research & Clinical Partners",
+      "sub": "Serving research institutions across China, with clinical collaborations at top hospitals.",
+      "t1": "Research Universities",
+      "p1": "USTC · XJTU · Xidian · Shaanxi University of Chinese Medicine",
+      "t2": "Medical Schools",
+      "p2": "Wannan Medical · Anhui Medical · Capital Medical · Southern Medical",
+      "t3": "Top Hospitals",
+      "p3": "First Affiliated Hospital of AHMU · Hefei Fourth People's Hospital · Tiantan Anhui Hospital · Zhujiang Hospital · Zhanjiang Central Hospital",
+      "t4": "Strategic Partner",
+      "p4": "Anhui Provincial Hospital — joint nationwide flagship digital BCI rehab center."
+    },
+    "contact": {
+      "kicker": "Contact",
+      "title": "Hefei Huanlian Technology Co., Ltd.",
+      "tel": "Tel: 0551-65250690",
+      "email": "Email: AstroMind@xnzlsmart.cn",
+      "addr": "Address: Bailee Center South Tower 318, 888 Qianshan Rd, Shushan District, Hefei, Anhui, China",
+      "cta": "Business Inquiry"
+    }
+  },
+  "tech": {
+    "hero": {
+      "kicker": "Technology",
+      "title": "Implantable BCI Stack",
+      "lede": "A full-stack pipeline: biocompatible electrodes, low-noise high-throughput acquisition, smart targeting, real-time signal analytics — all self-controlled.",
+      "cap": "NeuroBox Lab"
+    },
+    "core": {
+      "kicker": "Core Tech",
+      "title": "Three core capabilities",
+      "lede": "Core team across materials science, micro-nano fabrication, chip design, neuroelectrophysiology, and algorithms — with mastered tech in dissolvable neural materials, silicon-probe nanofabrication, and high-frequency signal acquisition. The foundation for high-throughput implantable BCI."
+    },
+    "stack": {
+      "kicker": "Stack",
+      "title": "Four technology modules",
+      "t1": "High-Throughput Implantable Electrodes",
+      "p1": "Michigan silicon (32–256 ch), ECoG flexible cortical electrodes, PEG-encapsulated microwire arrays — Spike + LFP + ECoG full-band recording, optogenetics-compatible, microstim-ready.",
+      "t2": "2048-Channel Neural Acquisition",
+      "p2": "NeuroBox host + Headstage 32/64-ch front-end + 2 m serial cable — 0–30 kHz on-line sampling, live bandwidth tuning, multi-channel impedance.",
+      "t3": "Smart Targeting",
+      "p3": "MPM multi-arm targeting platform — parallel implantation of multiple electrodes / fibers / injectors, Neuropixels-recommended.",
+      "t4": "Real-Time Software & Decoding",
+      "p4": "NeuroAnalysis: real-time waveform, binary store, one-click spike sorting, peri-event analysis, AI signal parsing & visualization."
+    },
+    "lab": {
+      "kicker": "Lab to Bedside",
+      "title": "From lab bench to rehab ward",
+      "lede": "Hardware, software, and services validated end-to-end across research labs and clinical wards.",
+      "cap1": "Rehab Center",
+      "cap2": "Electrophysiology Lab",
+      "cap3": "ECoG Array"
+    },
+    "ext": {
+      "kicker": "Capabilities",
+      "title": "Extended capabilities",
+      "sub": "Beyond the core acquisition pipeline, Huanlian offers complete coverage of animal-experiment simulation, in-vitro cell analysis, and neural data services.",
+      "t1": "VR Behavior Simulator",
+      "p1": "270° multi-screen + motion platform + dual-GPU host — immersive virtual-environment animal experiments.",
+      "t2": "In-Vitro HD-MEAs",
+      "p2": "Real-time label-free in-vitro cell function, development, connectivity, morphology — phenotyping, disease modeling, drug discovery.",
+      "t3": "Neural Data Analysis",
+      "p3": "Denoising, spike sorting, time-series analysis, correlated coding, batch processing, paper-grade visualization.",
+      "t4": "Animal Models",
+      "p4": "Custom neuroscience / BCI animal models — standardized modeling, husbandry, behavior, sample prep — fit for implant validation."
+    },
+    "academic": {
+      "kicker": "Academic",
+      "title": "Academic services & 3-year research partnership",
+      "lede": "Team led by national-level talent, with multiple high-impact SCI papers per year. Lead investigator holds joint professor appointments at top hospitals. Services: top-journal support, national-level grant guidance, research differentiation, lab exchange, international collaboration, talent recruitment. The 3-year partnership program builds research foundation, drives output, and grows sustainable BCI capability for hospital teams."
+    }
+  },
+  "platform": {
+    "hero": {
+      "kicker": "Product Matrix",
+      "title": "Medical + Research full suite",
+      "lede": "From SpikeLink wireless implant, to NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, MPM targeting, and HD-MEA in-vitro arrays — implant to software.",
+      "cap": "SpikeLink · NeuroBox · MPM"
+    },
+    "modules": {
+      "kicker": "Modules",
+      "title": "Product modules",
+      "tab1": "Overview",
+      "tab2": "Electrodes",
+      "tab3": "Acquisition",
+      "tab4": "Software & In-Vitro",
+      "p1Title": "SpikeLink wireless full-implant BCI",
+      "p1Body": "Huanlian's medical-grade flagship — a wireless full-implant BCI for clinical use. Pairs with NeuroBox / electrodes / software to close the loop across lab, clinic, and at-home. See the Anhui BCI Alliance launch PDF for technical specs.",
+      "p2Title": "Electrode series",
+      "p2Body": "Michigan silicon (32–256 ch, ultra-thin shanks, optogenetics-compatible) ｜ ECoG flexible cortical (long-term LFP tracking, multi-region observation) ｜ Microwire (PEG-encapsulated precise insertion, 2–14 mm exposure, Spike/LFP + microstimulation).",
+      "p3Title": "Acquisition & targeting",
+      "p3Body": "NeuroBox host (2048-ch) ｜ Headstage front-end (32/64-ch + 2 m serial) ｜ MPM multi-arm targeting (parallel multi-electrode / fiber / injector) ｜ Neuropixels-ready ultra-high-throughput digital probes.",
+      "p4Title": "Software, VR & in-vitro",
+      "p4Body": "NeuroAnalysis (real-time waveform, 0–30 kHz sampling, impedance, one-click sorting) ｜ VR animal-behavior simulator (270° multi-screen + dual-GPU) ｜ HD-MEAs in-vitro arrays (real-time label-free cell function, development, connectivity, morphology)."
+    },
+    "services": {
+      "kicker": "Services",
+      "title": "Research support services",
+      "p1": "Lab solutions: 2048-ch host + full electrode lineup + AI signal parsing + visualization platform — turnkey delivery.",
+      "p2": "Animal models: standardized modeling, husbandry, behavior, sample prep — fit for circuit research, pharmacology, implant validation.",
+      "p3": "Clinical translation: lab / clinic / at-home — five solutions and four product lines covering non-invasive and implantable paths.",
+      "p4": "Neural data analysis: denoising, spike sorting, time-series & correlated coding, batch processing, paper-grade output.",
+      "p5": "Academic services: top-journal support, national grant guidance, international collaboration, 3-year partnership program.",
+      "p6": "Rehabilitation suite: rehab robots, exoskeleton, limb / hand / cognitive / speech / swallowing training, TI & transcranial modulation."
+    },
+    "launch": {
+      "kicker": "Launch Material",
+      "title": "Launch material",
+      "lede": "Anhui BCI Alliance co-launch of implantable BCI series — full launch package includes SpikeLink visuals, technical specs, and on-site photography.",
+      "cta1": "View Launch PDF",
+      "cta2": "Get a Quote",
+      "cap1": "Implant Macro",
+      "cap3": "ECoG Array"
+    }
+  },
+  "shop": {
+    "hero": {
+      "kicker": "Shop",
+      "title": "Equipment catalog & quote",
+      "lede": "Medical-grade and research-grade equipment ships through tailored quotes — configure to your protocol or clinical workflow.",
+      "tag1": "Implantable",
+      "tag2": "Research",
+      "tag3": "Rehab",
+      "tag4": "Lifestyle"
+    },
+    "section": {
+      "implant": "Implant & Full-Implant",
+      "implantKicker": "Implantable · Medical",
+      "electrode": "Electrode Matrix",
+      "electrodeKicker": "Electrodes",
+      "acq": "Acquisition & Targeting",
+      "acqKicker": "Acquisition",
+      "soft": "Analysis & In-Vitro",
+      "softKicker": "Software & In-Vitro",
+      "rehab": "Rehabilitation Suite",
+      "rehabKicker": "Rehab",
+      "life": "Lifestyle BCI",
+      "lifeKicker": "Lifestyle"
+    },
+    "badge": {
+      "medical": "Medical",
+      "research": "Research",
+      "hospital": "Hospital"
+    },
+    "card": {
+      "quote": "Quote",
+      "license": "License",
+      "solution": "Solution",
+      "b2c": "Consumer",
+      "inquire": "Inquire"
+    },
+    "products": {
+      "spikelink": {
+        "kicker": "SpikeLink",
+        "title": "Wireless full-implant BCI",
+        "body": "Flagship clinical wireless implant — closes the loop across lab, clinic, and at-home with NeuroBox / electrodes / software."
+      },
+      "ecog": {
+        "kicker": "ECoG",
+        "title": "ECoG flexible cortical array",
+        "body": "High conformability for long-term LFP tracking and multi-region cortical recording."
+      },
+      "michigan": {
+        "kicker": "Silicon",
+        "title": "Michigan silicon probe",
+        "body": "32–256 channels, ultra-thin shanks, optogenetics-compatible — Spike + LFP for stable in-vivo recording."
+      },
+      "microwire": {
+        "kicker": "Microwire",
+        "title": "Microwire array",
+        "body": "PEG-encapsulated microwires for precise insertion — Spike/LFP + microstimulation."
+      },
+      "neurobox": {
+        "kicker": "NeuroBox",
+        "title": "NeuroBox 2048-channel host",
+        "body": "2048-channel host, 0–30 kHz on-line sampling, live bandwidth tuning, multi-channel impedance."
+      },
+      "mpm": {
+        "kicker": "MPM",
+        "title": "MPM multi-arm targeting",
+        "body": "Multi-electrode / fiber / injector parallel targeting — Neuropixels-recommended."
+      },
+      "headstage": {
+        "kicker": "Headstage",
+        "title": "32/64-ch headstage",
+        "body": "Dedicated headstage + 2 m serial cable, low-noise preconditioning, NeuroBox-ready."
+      },
+      "software": {
+        "kicker": "Software",
+        "title": "NeuroAnalysis suite",
+        "body": "Real-time waveform, binary storage, one-click spike sorting, peri-event analysis."
+      },
+      "vr": {
+        "kicker": "VR",
+        "title": "VR behavior system",
+        "body": "270° multi-screen + motion platform + dual-GPU host — immersive animal behavior."
+      },
+      "hdmea": {
+        "kicker": "HD-MEA",
+        "title": "In-vitro HD-MEA",
+        "body": "Real-time label-free in-vitro cell function, development, connectivity, morphology — phenotyping, disease modeling, drug discovery."
+      },
+      "exo": {
+        "kicker": "Exoskeleton",
+        "title": "Brain-controlled exoskeleton",
+        "body": "Motor-intent decoding + closed-loop rehab — limbs, hand, and neural modulation."
+      },
+      "ti": {
+        "kicker": "TI Stim",
+        "title": "Temporal interference stim",
+        "body": "Non-invasive deep-brain stimulation — paired with transcranial EEG/MEG modulation."
+      },
+      "robot": {
+        "kicker": "Robot",
+        "title": "Rehab robot",
+        "body": "Cognitive / speech / swallowing rehab robots — deploy with digital rehab centers."
+      },
+      "eeg": {
+        "kicker": "EEG Cap",
+        "title": "Consumer EEG cap",
+        "body": "Multi-channel EEG capture with cloud analytics for personalized health management."
+      },
+      "emotion": {
+        "kicker": "Emotion",
+        "title": "Emotion analyzer",
+        "body": "Portable wearable for mental wellness, stress, and remote care."
+      },
+      "glasses": {
+        "kicker": "BCI Glasses",
+        "title": "BCI glasses",
+        "body": "BCI + eye-tracking + focus feedback for study aid and daily-life productivity."
+      }
+    },
+    "order": {
+      "kicker": "How to Order",
+      "title": "Quote, procurement & customization",
+      "tel": "Tel: 0551-65250690 ｜ Email: AstroMind@xnzlsmart.cn",
+      "lede": "Specify use case (research / clinical / at-home), channel & electrode spec, institution & procurement type. We reply with a full configuration and quote within 1-2 business days.",
+      "cta": "Send Inquiry"
+    }
+  }
+}
