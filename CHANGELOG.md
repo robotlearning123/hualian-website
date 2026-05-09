@@ -2,6 +2,19 @@
 
 All notable changes to the Huanlian BCI website. Newest first.
 
+## 2026-05-09 — hero polish + bilingual eyebrow consistency (FIX-019)
+
+- **FIX-019** `polish(hero)` — eyebrow / H1 split refined on platform + technology:
+  - `platform.html` — eyebrow `产品矩阵` and H1 `产品矩阵` were duplicate.
+    Eyebrow → `产品 · Product Matrix`; H1 → `设备体系`.
+  - `technology.html` — H1 was 8-char "植入式 BCI 技术路线" (long).
+    Eyebrow → `技术路线 · Technology`; H1 → `全栈自主可控`;
+    lede absorbs "植入式 BCI 技术路线 · ..."
+  - en.json mirrored: `Product · Matrix` / `Device Stack`,
+    `Technology · 技术` / `Vertically integrated`.
+  - Brings hero eyebrow pattern (`中文 · English`) in line with
+    apps / partners / shop.
+
 ## 2026-05-09 — footer addr render fix (FIX-018)
 
 - **FIX-018** `bug(footer)` — `footer.addr` switched from `data-i18n` (textContent)

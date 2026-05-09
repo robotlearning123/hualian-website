@@ -159,9 +159,9 @@
   },
   "tech": {
     "hero": {
-      "kicker": "技术路线",
-      "title": "植入式 BCI 技术路线",
-      "lede": "围绕生物兼容电极、低噪声高通量采集、智能植入定位与实时信号解析建立技术栈，全栈自主可控。",
+      "kicker": "技术路线 · Technology",
+      "title": "全栈自主可控",
+      "lede": "植入式 BCI 技术路线 · 生物兼容电极、低噪声高通量采集、智能植入定位与实时信号解析。从材料到算法全自主。",
       "cap": "NeuroBox 实验室"
     },
     "core": {
@@ -217,8 +217,8 @@
   },
   "platform": {
     "hero": {
-      "kicker": "产品矩阵",
-      "title": "产品矩阵",
+      "kicker": "产品 · Product Matrix",
+      "title": "设备体系",
       "lede": "医疗级 + 科研级全栈：SpikeLink 全植入无线、NeuroBox 2048 通道采集、密歇根 / ECoG / 微丝电极、MPM 智能植入定位、HD-MEA 离体阵列。",
       "cap": "SpikeLink · NeuroBox · MPM"
     },

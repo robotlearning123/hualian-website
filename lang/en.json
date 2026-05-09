@@ -159,9 +159,9 @@
   },
   "tech": {
     "hero": {
-      "kicker": "Technology",
-      "title": "Implantable BCI Stack",
-      "lede": "A full-stack pipeline: biocompatible electrodes, low-noise high-throughput acquisition, smart targeting, real-time signal analytics — all self-controlled.",
+      "kicker": "Technology · 技术",
+      "title": "Vertically integrated",
+      "lede": "Implantable BCI tech roadmap — biocompatible electrodes, low-noise high-throughput acquisition, AI-guided implantation and real-time signal decoding. End-to-end in-house.",
       "cap": "NeuroBox Lab"
     },
     "core": {
@@ -217,8 +217,8 @@
   },
   "platform": {
     "hero": {
-      "kicker": "Product Matrix",
-      "title": "Product Matrix",
+      "kicker": "Product · Matrix",
+      "title": "Device Stack",
       "lede": "Medical + research full stack: SpikeLink wireless implant, NeuroBox 2048-ch acquisition, Michigan / ECoG / microwire electrodes, MPM targeting, HD-MEA in-vitro arrays.",
       "cap": "SpikeLink · NeuroBox · MPM"
     },
