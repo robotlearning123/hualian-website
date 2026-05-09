@@ -1419,7 +1419,10 @@ figure.model-stage {
   background: var(--bg-elevated);
 }
 
-.tech-hero-media img {
+.tech-hero-media img,
+.tech-hero-media video {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -2303,7 +2306,10 @@ figure.model-stage {
     var(--bg-elevated);
 }
 
-.product-thumb img {
+.product-thumb img,
+.product-thumb video {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
