@@ -12,6 +12,55 @@
     window.addEventListener("scroll", updateHeaderScroll, { passive: true });
   }
 
+  // Scroll-triggered reveal (Neuralink/SpaceX feel)
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && "IntersectionObserver" in window) {
+    const targets = document.querySelectorAll(
+      ".section-band, .cinematic-band, .stack-with-media, .product-card, .demo-band, .capability-block, .architecture-flow article, .application-list article, .evidence-grid article"
+    );
+    targets.forEach((el) => el.classList.add("reveal"));
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { rootMargin: "0px 0px -8% 0px", threshold: 0.05 }
+    );
+    targets.forEach((el) => io.observe(el));
+  }
+
+  // Soft parallax on cinematic banner backgrounds
+  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const bgs = document.querySelectorAll(".cinematic-band > .cinematic-bg");
+    if (bgs.length) {
+      let ticking = false;
+      const update = () => {
+        const vh = window.innerHeight;
+        bgs.forEach((bg) => {
+          const r = bg.parentElement.getBoundingClientRect();
+          const c = r.top + r.height / 2 - vh / 2;
+          const shift = Math.max(-40, Math.min(40, -c * 0.06));
+          bg.style.transform = `translate3d(0, ${shift}px, 0) scale(1.08)`;
+        });
+        ticking = false;
+      };
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (!ticking) {
+            requestAnimationFrame(update);
+            ticking = true;
+          }
+        },
+        { passive: true }
+      );
+      update();
+    }
+  }
+
   if (navToggle && primaryNav) {
     navToggle.addEventListener("click", () => {
       const nextState = navToggle.getAttribute("aria-expanded") !== "true";
