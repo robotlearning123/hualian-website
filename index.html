@@ -68,9 +68,9 @@
         <a href="technology.html" data-nav-link="technology" data-i18n="nav.tech">技术</a>
         <a href="platform.html" data-nav-link="platform" data-i18n="nav.platform">产品</a>
         <a href="shop.html" data-nav-link="shop" data-i18n="nav.shop">商城</a>
-        <a href="#applications" data-i18n="nav.apps">应用</a>
-        <a href="#partners" data-i18n="nav.partners">合作</a>
-        <a href="#contact" data-i18n="nav.contact">联系</a>
+        <a href="apps.html" data-i18n="nav.apps">应用</a>
+        <a href="partners.html" data-i18n="nav.partners">合作</a>
+        <a href="contact.html" data-i18n="nav.contact">联系</a>
         <button type="button" class="lang-switch" data-lang-switch>EN</button>
       </nav>
     </header>
@@ -213,7 +213,7 @@
             <p class="section-lede" data-i18n="home.launch.lede">幻联科技作为安徽脑机接口联盟成员，联合发布国产植入式脑机接口系列产品，推动高通量神经接口从实验室走向临床。</p>
             <p class="launch-actions">
               <a class="button button-primary" href="assets/docs/anhui-bci-launch.pdf" target="_blank" rel="noopener" data-i18n="home.launch.cta1">下载发布资料</a>
-              <a class="button button-secondary" href="#contact" data-i18n="home.launch.cta2">询问产品报价</a>
+              <a class="button button-secondary" href="contact.html" data-i18n="home.launch.cta2">询问产品报价</a>
             </p>
           </div>
           <div class="media-slots">
@@ -251,66 +251,28 @@
         </div>
       </section>
 
-      <section class="section-band applications-band" id="applications" aria-labelledby="applications-title">
+      <section class="section-band teaser-band" aria-labelledby="teaser-title">
         <div class="section-heading align-left">
-          <p class="eyebrow" data-i18n="home.apps.kicker">应用方向</p>
-          <h2 id="applications-title" data-i18n="home.apps.title">应用方向</h2>
+          <p class="eyebrow" data-i18n="home.teaser.kicker">深入了解</p>
+          <h2 id="teaser-title" data-i18n="home.teaser.title">挑一个方向继续看</h2>
         </div>
-        <div class="application-list">
-          <article>
-            <h3 data-i18n="home.apps.t1">神经科学基础研究</h3>
-            <p data-i18n="home.apps.p1">多通道在体电生理、光遗传联用、长期稳定记录与脑区精准定位，支持神经环路与编码研究。</p>
-          </article>
-          <article>
-            <h3 data-i18n="home.apps.t2">临床转化与脑控外设</h3>
-            <p data-i18n="home.apps.p2">SpikeLink 全植入无线 + 脑控外骨骼，运动意图识别、闭环康复与神经调控完整链路。</p>
-          </article>
-          <article>
-            <h3 data-i18n="home.apps.t3">康复专科病房</h3>
-            <p data-i18n="home.apps.p3">联合安徽省立医院打造数字化康复中心，覆盖上下肢/手功能/认知/语言/吞咽。</p>
-          </article>
-          <article>
-            <h3 data-i18n="home.apps.t4">院外健康管理</h3>
-            <p data-i18n="home.apps.p4">脑电帽、情绪分析仪器、脑机接口眼镜等可穿戴设备，把脑机能力延伸到日常生活场景。</p>
-          </article>
+        <div class="teaser-grid">
+          <a class="teaser-card" href="apps.html" style="--bg-image:url('assets/images/lab-night.png')">
+            <span class="teaser-tag" data-i18n="home.teaser.t1">应用方向</span>
+            <h3 data-i18n="home.teaser.h1">神经科研 · 临床 · 康复 · 院外</h3>
+            <p data-i18n="home.teaser.p1">同一套硬件 + 软件，按四类场景配置；查看应用矩阵 →</p>
+          </a>
+          <a class="teaser-card" href="partners.html" style="--bg-image:url('assets/images/conference.png')">
+            <span class="teaser-tag" data-i18n="home.teaser.t2">合作伙伴</span>
+            <h3 data-i18n="home.teaser.h2">研究型大学 · 三甲医院 · 战略共建</h3>
+            <p data-i18n="home.teaser.p2">中科大 · 西交 · 安医一附 · 合肥四院 · 安徽省立 ⋯ 查看合作 →</p>
+          </a>
+          <a class="teaser-card" href="contact.html" style="--bg-image:url('assets/images/clinic-room.png')">
+            <span class="teaser-tag" data-i18n="home.teaser.t3">联系我们</span>
+            <h3 data-i18n="home.teaser.h3">0551-65250690 · AstroMind@xnzlsmart.cn</h3>
+            <p data-i18n="home.teaser.p3">电话 · 邮件 · 地址 · 询价模板，一站直达 →</p>
+          </a>
         </div>
-      </section>
-
-      <section class="section-band evidence-band" id="partners" aria-labelledby="partners-title">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="home.partners.kicker">合作伙伴</p>
-          <h2 id="partners-title" data-i18n="home.partners.title">合作高校与医院</h2>
-          <p data-i18n="home.partners.sub">已服务于海内外多家科研机构，与三甲医院共建临床合作。</p>
-        </div>
-        <div class="evidence-grid">
-          <article>
-            <h3 data-i18n="home.partners.t1">研究型大学</h3>
-            <p data-i18n="home.partners.p1">中国科学技术大学 · 西安交通大学 · 西安电子科技大学 · 陕西中医药大学</p>
-          </article>
-          <article>
-            <h3 data-i18n="home.partners.t2">医学院校</h3>
-            <p data-i18n="home.partners.p2">皖南医科大学 · 安徽医科大学 · 首都医科大学 · 南方医科大学</p>
-          </article>
-          <article>
-            <h3 data-i18n="home.partners.t3">三甲医院</h3>
-            <p data-i18n="home.partners.p3">安徽医科大学第一附属医院 · 合肥市第四人民医院 · 北京天坛医院安徽医院 · 南方医科大学珠江医院 · 湛江中心人民医院</p>
-          </article>
-          <article>
-            <h3 data-i18n="home.partners.t4">战略共建</h3>
-            <p data-i18n="home.partners.p4">安徽省立医院 — 联合打造全国标杆性脑机智能数字化康复中心。</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="contact-band" id="contact" aria-labelledby="contact-title">
-        <div>
-          <p class="eyebrow" data-i18n="home.contact.kicker">联系</p>
-          <h2 id="contact-title" data-i18n="home.contact.title">合肥幻联科技有限公司</h2>
-          <p data-i18n="home.contact.tel">电话：0551-65250690</p>
-          <p data-i18n="home.contact.email">邮箱：AstroMind@xnzlsmart.cn</p>
-          <p data-i18n="home.contact.addr">地址：安徽省合肥市蜀山区潜山路 888 号百利中心南塔 318 室</p>
-        </div>
-        <a class="button button-primary" href="mailto:AstroMind@xnzlsmart.cn" data-i18n="home.contact.cta">商务合作邮件</a>
       </section>
     </main>
 
