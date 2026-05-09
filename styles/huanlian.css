@@ -1249,18 +1249,59 @@ figure.model-stage {
   text-transform: uppercase;
 }
 
-.stack-with-media {
-  display: grid !important;
-  grid-template-columns: auto minmax(0, 1fr) minmax(0, 0.7fr);
+/* Override .stack-list article default 2-col grid for media-rich rows */
+.stack-list .stack-with-media {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
   align-items: stretch;
-  gap: 28px;
-  padding: 28px clamp(20px, 4vw, 40px) !important;
+  gap: clamp(24px, 4vw, 56px);
+  min-height: clamp(420px, 48vw, 540px);
+  padding: clamp(36px, 5vw, 64px) clamp(24px, 4vw, 56px);
+  background: var(--bg-panel);
 }
 
-.stack-with-media .stack-body {
+.stack-list .stack-with-media:nth-child(even) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+}
+
+.stack-list .stack-with-media:nth-child(even) .stack-media {
+  order: -1;
+}
+
+.stack-list .stack-with-media .stack-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 14px;
+}
+
+.stack-list .stack-with-media .stack-index {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  padding: 4px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  align-self: flex-start;
+  color: var(--amber);
+  font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.stack-list .stack-with-media h3 {
+  margin: 4px 0 0;
+  font-size: clamp(28px, 3.4vw, 42px);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+
+.stack-list .stack-with-media p {
+  margin: 0;
+  max-width: 48ch;
+  font-size: clamp(15px, 1.2vw, 17px);
+  line-height: 1.6;
 }
 
 .stack-media {
@@ -1270,7 +1311,7 @@ figure.model-stage {
   overflow: hidden;
   border: 1px solid var(--line);
   background: var(--bg-elevated);
-  min-height: 180px;
+  min-height: clamp(280px, 36vw, 460px);
 }
 
 .stack-media img,
@@ -1283,12 +1324,26 @@ figure.model-stage {
   display: block;
 }
 
+.stack-media::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 35%;
+  background: linear-gradient(180deg, rgba(8,10,8,0) 0%, rgba(8,10,8,0.45) 100%);
+  pointer-events: none;
+}
+
 @media (max-width: 900px) {
-  .stack-with-media {
-    grid-template-columns: 1fr !important;
+  .stack-list .stack-with-media,
+  .stack-list .stack-with-media:nth-child(even) {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .stack-list .stack-with-media:nth-child(even) .stack-media {
+    order: 0;
   }
   .stack-media {
-    min-height: 220px;
+    min-height: 260px;
   }
 }
 
