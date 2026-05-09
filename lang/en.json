@@ -7,7 +7,13 @@
     "platformTitle": "Products | AstroMind · Hefei Huanlian",
     "platformDesc": "Product matrix: SpikeLink wireless implant, NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, Neuropixels-ready, MPM targeting, HD-MEAs.",
     "shopTitle": "Shop | AstroMind · Hefei Huanlian",
-    "shopDesc": "AstroMind shop: implantable BCI, acquisition systems, electrodes, rehabilitation gear, lifestyle BCI."
+    "shopDesc": "AstroMind shop: implantable BCI, acquisition systems, electrodes, rehabilitation gear, lifestyle BCI.",
+    "appsTitle": "Applications | AstroMind · Hefei Huanlian",
+    "appsDesc": "AstroMind applications: basic neuroscience, clinical translation, rehab wards, at-home health.",
+    "partnersTitle": "Partners | AstroMind · Hefei Huanlian",
+    "partnersDesc": "Research universities, medical schools, top hospitals, and the Anhui Provincial Hospital strategic partnership.",
+    "contactTitle": "Contact | AstroMind · Hefei Huanlian",
+    "contactDesc": "Tel 0551-65250690 · Email AstroMind@xnzlsmart.cn · Bailee Center South Tower 318, 888 Qianshan Rd, Hefei."
   },
   "brand": {
     "name": "AstroMind",
@@ -112,6 +118,19 @@
       "addr": "Address: Bailee Center South Tower 318, 888 Qianshan Rd, Shushan District, Hefei, Anhui, China",
       "cta": "Business Inquiry"
     },
+    "teaser": {
+      "kicker": "Go deeper",
+      "title": "Pick a thread to follow",
+      "t1": "Applications",
+      "h1": "Research · Clinical · Rehab · At-home",
+      "p1": "Same hardware + software, configured for four scenes. View the matrix →",
+      "t2": "Partners",
+      "h2": "Universities · Top hospitals · Strategic",
+      "p2": "USTC · XJTU · AHMU 1st · Hefei 4th · Anhui Provincial ⋯ View partners →",
+      "t3": "Contact",
+      "h3": "0551-65250690 · AstroMind@xnzlsmart.cn",
+      "p3": "Phone, email, address, inquiry template — all in one stop →"
+    },
     "scroll": "Scroll ↓",
     "cine1": {
       "eyebrow": "SpikeLink · Implant",
@@ -196,7 +215,8 @@
     },
     "modules": {
       "kicker": "Modules",
-      "title": "Product modules",
+      "title": "Four product lines · one full stack",
+      "lede": "Switch tabs to see specs, visuals, and inquiry CTAs for each line.",
       "tab1": "Overview",
       "tab2": "Electrodes",
       "tab3": "Acquisition",
@@ -212,13 +232,27 @@
     },
     "services": {
       "kicker": "Services",
-      "title": "Research support services",
-      "p1": "Lab solutions: 2048-ch host + full electrode lineup + AI signal parsing + visualization platform — turnkey delivery.",
-      "p2": "Animal models: standardized modeling, husbandry, behavior, sample prep — fit for circuit research, pharmacology, implant validation.",
-      "p3": "Clinical translation: lab / clinic / at-home — five solutions and four product lines covering non-invasive and implantable paths.",
-      "p4": "Neural data analysis: denoising, spike sorting, time-series & correlated coding, batch processing, paper-grade output.",
-      "p5": "Academic services: top-journal support, national grant guidance, international collaboration, 3-year partnership program.",
-      "p6": "Rehabilitation suite: rehab robots, exoskeleton, limb / hand / cognitive / speech / swallowing training, TI & transcranial modulation."
+      "title": "Six service lines · end-to-end support",
+      "lede": "From turnkey lab delivery to academic partnership — six tracks that carry you from equipment install to publication.",
+      "tag1": "Turnkey", "h1": "Lab Solutions",
+      "p1": "2048-ch host + full electrode lineup + AI signal parsing + visualization platform — turnkey delivery.",
+      "cta1": "Discuss delivery →",
+      "tag2": "Animal Models", "h2": "Animal Models",
+      "p2": "Standardized modeling, husbandry, behavior, sample prep — fit for circuit research, pharmacology, implant validation.",
+      "cta2": "Explore models →",
+      "tag3": "Clinical", "h3": "Clinical Translation",
+      "p3": "Lab / clinic / at-home — five solutions and four product lines covering non-invasive and implantable paths.",
+      "cta3": "Discuss path →",
+      "tag4": "Data Pipeline", "h4": "Neural Data Analysis",
+      "p4": "Denoising, spike sorting, time-series & correlated coding, batch processing, paper-grade output.",
+      "cta4": "Submit dataset →",
+      "tag5": "3-Year Partner", "h5": "Academic Services",
+      "p5": "Top-journal support, national grant guidance, international collaboration, 3-year partnership program.",
+      "cta5": "Apply for partnership →",
+      "tag6": "Full Rehab", "h6": "Rehabilitation Suite",
+      "p6": "Rehab robots, exoskeleton, limb / hand / cognitive / speech / swallowing training, TI & transcranial modulation.",
+      "cta6": "Discuss rehab center →",
+      "p1Title": "", "p2Title": "", "p3Title": "", "p4Title": "", "p5Title": "", "p6Title": ""
     },
     "launch": {
       "kicker": "Launch Material",
@@ -229,6 +263,113 @@
       "cap1": "Implant Macro",
       "cap2": "Alliance Launch Keynote",
       "cap3": "ECoG Array"
+    }
+  },
+  "apps": {
+    "hero": {
+      "kicker": "Applications",
+      "title": "Four scenes — from research bench to at-home life",
+      "lede": "One hardware + software stack, configured per scene, spans lab, clinic, ward, and daily life."
+    },
+    "list": {
+      "kicker": "Four scenes",
+      "title": "Application matrix",
+      "t1": "Basic Neuroscience",
+      "p1": "Multichannel in-vivo electrophysiology, optogenetics, long-term stable recording, precise targeting — for circuits and coding research.",
+      "t2": "Clinical & Brain-Controlled Devices",
+      "p2": "SpikeLink wireless full-implant + brain-controlled exoskeleton — motor decoding, closed-loop rehab, neural modulation.",
+      "t3": "Rehabilitation Wards",
+      "p3": "Joint digital rehab center with Anhui Provincial Hospital — limbs, hand, cognitive, speech, swallowing.",
+      "t4": "At-Home Health",
+      "p4": "EEG caps, emotion analyzers, BCI glasses — wearables that bring BCI to daily life."
+    },
+    "cine1": {
+      "eyebrow": "Research · Neuroscience",
+      "title": "From cortical potentials to circuits",
+      "body": "2048-channel host + full-band electrodes covering Spike / LFP / ECoG; AI sorting and coding analysis flow straight into the publication pipeline."
+    },
+    "cine2": {
+      "eyebrow": "Clinic · Rehabilitation",
+      "title": "Bringing motor intent back to the limb",
+      "body": "SpikeLink full-implant + brain-controlled exoskeleton + closed-loop rehab algorithms; flagship digital rehab center with Anhui Provincial Hospital."
+    },
+    "cta": {
+      "kicker": "Next step",
+      "title": "Tell us your application scene",
+      "lede": "Lab / clinic / ward / at-home — we suggest a configuration and quote per scene.",
+      "cta1": "Send Scene Brief",
+      "cta2": "View Products"
+    }
+  },
+  "partners": {
+    "hero": {
+      "kicker": "Partners",
+      "title": "Universities, medical schools, top hospitals",
+      "lede": "Serving research institutions across China and abroad; co-building a flagship digital BCI rehab center with Anhui Provincial Hospital."
+    },
+    "list": {
+      "kicker": "Partner matrix",
+      "title": "Universities & Hospitals",
+      "sub": "Serving research institutions across China; clinical collaborations with top hospitals.",
+      "t1": "Research Universities",
+      "p1": "USTC · XJTU · Xidian · Shaanxi University of Chinese Medicine",
+      "t2": "Medical Schools",
+      "p2": "Wannan Medical · Anhui Medical · Capital Medical · Southern Medical",
+      "t3": "Top Hospitals",
+      "p3": "First Affiliated Hospital of AHMU · Hefei Fourth People's Hospital · Tiantan Anhui Hospital · Zhujiang Hospital · Zhanjiang Central Hospital",
+      "t4": "Strategic Partner",
+      "p4": "Anhui Provincial Hospital — joint nationwide flagship digital BCI rehab center."
+    },
+    "cine": {
+      "eyebrow": "Strategic · Anhui Provincial Hospital",
+      "title": "Flagship digital BCI rehabilitation center",
+      "body": "Joint with Anhui Provincial Hospital — limbs, hand, cognitive, speech, and swallowing rehab in a unified digital center."
+    },
+    "cta": {
+      "kicker": "Partner with us",
+      "title": "Want to be the next collaborator?",
+      "lede": "Tell us your department or lab focus; we'll match you to a partnership model and the 3-year research program.",
+      "cta1": "Submit Interest",
+      "cta2": "View Capabilities"
+    }
+  },
+  "contact": {
+    "hero": {
+      "kicker": "Contact",
+      "title": "Hefei Huanlian Technology Co., Ltd.",
+      "lede": "Tell us your scene, institution, and procurement type. We reply with a complete plan and quote within 1-2 business days."
+    },
+    "info": {
+      "kicker": "Direct contact",
+      "title": "Three fastest paths",
+      "tag1": "Phone",
+      "tel": "0551-65250690",
+      "telNote": "Workdays 09:00–18:00 (UTC+8)",
+      "telCta": "Call now →",
+      "tag2": "Email",
+      "email": "AstroMind@xnzlsmart.cn",
+      "emailNote": "Single inbox for business, technical, and media inquiries.",
+      "emailCta": "Write email →",
+      "tag3": "Address",
+      "addr": "Hefei · Shushan District",
+      "addrNote": "Bailee Center South Tower 318, 888 Qianshan Rd",
+      "addrCta": "Open in maps →"
+    },
+    "form": {
+      "kicker": "Inquiry template",
+      "title": "Please include these in your email",
+      "l1": "Application: research / clinical / at-home",
+      "l2": "Channels and electrode spec (e.g. NeuroBox 2048 ch · Michigan 64 ch · ECoG flexible)",
+      "l3": "Institution, PI / lead, expected procurement form",
+      "l4": "Expected delivery timing and on-site training / 3-year program needs",
+      "l5": "Special requirements (optogenetics, animal models, clinical ethics, etc.)"
+    },
+    "cta": {
+      "kicker": "Next step",
+      "title": "Send us the items above",
+      "lede": "The more specific your description, the faster we land an accurate plan.",
+      "cta1": "Email with template",
+      "cta2": "Browse the shop"
     }
   },
   "shop": {

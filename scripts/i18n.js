@@ -1,15 +1,41 @@
 (function () {
   const STORE_KEY = "huanlian.lang";
-  const SUPPORTED = ["zh", "en"];
-  const DEFAULT = "zh";
+
+  // Default registry — overridden when lang/registry.json loads. Adding a new
+  // language only requires (1) dropping a new lang/<code>.json and (2)
+  // appending an entry to lang/registry.json — no JS edits needed.
+  let registry = {
+    default: "zh",
+    languages: [
+      { code: "zh", label: "中", htmlLang: "zh-CN", ariaLabel: "切换中文", switchLabelTo: "EN" },
+      { code: "en", label: "EN", htmlLang: "en",    ariaLabel: "Switch to English", switchLabelTo: "中" },
+    ],
+  };
+
+  function supportedCodes() {
+    return registry.languages.map((l) => l.code);
+  }
+
+  function getLangMeta(code) {
+    return registry.languages.find((l) => l.code === code) || registry.languages[0];
+  }
 
   function pickLang() {
     const url = new URL(location.href);
     const fromUrl = url.searchParams.get("lang");
-    if (fromUrl && SUPPORTED.includes(fromUrl)) return fromUrl;
+    if (fromUrl && supportedCodes().includes(fromUrl)) return fromUrl;
     const stored = localStorage.getItem(STORE_KEY);
-    if (stored && SUPPORTED.includes(stored)) return stored;
-    return DEFAULT;
+    if (stored && supportedCodes().includes(stored)) return stored;
+    // Auto-detect from navigator if browser hint matches a supported language
+    const navHint = (navigator.language || "").toLowerCase();
+    for (const meta of registry.languages) {
+      const codeLower = meta.code.toLowerCase();
+      const htmlLower = (meta.htmlLang || "").toLowerCase();
+      if (navHint === codeLower || navHint.startsWith(codeLower + "-") || navHint === htmlLower) {
+        return meta.code;
+      }
+    }
+    return registry.default;
   }
 
   function get(dict, key) {
@@ -18,19 +44,15 @@
 
   function applyDict(dict) {
     document.querySelectorAll("[data-i18n]").forEach((el) => {
-      const key = el.dataset.i18n;
-      const val = get(dict, key);
+      const val = get(dict, el.dataset.i18n);
       if (typeof val === "string") el.textContent = val;
     });
     document.querySelectorAll("[data-i18n-html]").forEach((el) => {
-      const key = el.dataset.i18nHtml;
-      const val = get(dict, key);
+      const val = get(dict, el.dataset.i18nHtml);
       if (typeof val === "string") el.innerHTML = val;
     });
     document.querySelectorAll("[data-i18n-attr]").forEach((el) => {
-      // format: "attr:key,attr2:key2"
-      const spec = el.dataset.i18nAttr;
-      spec.split(",").forEach((pair) => {
+      el.dataset.i18nAttr.split(",").forEach((pair) => {
         const [attr, key] = pair.split(":").map((s) => s.trim());
         const val = get(dict, key);
         if (typeof val === "string" && attr) el.setAttribute(attr, val);
@@ -38,41 +60,91 @@
     });
   }
 
-  async function load(lang) {
-    const res = await fetch(`lang/${lang}.json`, { cache: "no-cache" });
-    if (!res.ok) throw new Error(`lang ${lang} not found`);
+  async function loadJSON(url) {
+    const res = await fetch(url, { cache: "no-cache" });
+    if (!res.ok) throw new Error(`${url} -> ${res.status}`);
     return res.json();
   }
 
-  async function setLang(lang) {
-    const target = SUPPORTED.includes(lang) ? lang : DEFAULT;
+  async function loadDict(code) {
+    return loadJSON(`lang/${code}.json`);
+  }
+
+  async function setLang(code) {
+    const target = supportedCodes().includes(code) ? code : registry.default;
     try {
-      const dict = await load(target);
+      const dict = await loadDict(target);
       applyDict(dict);
-      document.documentElement.lang = target === "zh" ? "zh-CN" : "en";
+      const meta = getLangMeta(target);
+      document.documentElement.lang = meta.htmlLang || target;
       localStorage.setItem(STORE_KEY, target);
+
       const url = new URL(location.href);
-      if (target === DEFAULT) url.searchParams.delete("lang");
+      if (target === registry.default) url.searchParams.delete("lang");
       else url.searchParams.set("lang", target);
       history.replaceState(null, "", url.toString());
+
+      // Update toggle button(s). For 2-language, simple flip; for >2 we
+      // could swap to a <select> — handled via the languages registry.
       document.querySelectorAll("[data-lang-switch]").forEach((btn) => {
-        btn.textContent = target === "zh" ? "EN" : "中";
-        btn.setAttribute("aria-label", target === "zh" ? "Switch to English" : "切换中文");
+        if (registry.languages.length === 2) {
+          btn.textContent = meta.switchLabelTo;
+          btn.setAttribute("aria-label", meta.ariaLabel);
+        } else {
+          // For >=3 languages, render a dropdown next to the button if not yet upgraded
+          ensureLangPicker(btn, target);
+        }
       });
     } catch (err) {
       console.warn("i18n load failed:", err);
     }
   }
 
-  function init() {
+  function ensureLangPicker(btnEl, currentCode) {
+    if (btnEl.dataset.upgraded === "1") {
+      // refresh selected option
+      const sel = btnEl.querySelector("select");
+      if (sel) sel.value = currentCode;
+      return;
+    }
+    btnEl.textContent = "";
+    const sel = document.createElement("select");
+    sel.className = "lang-picker";
+    sel.setAttribute("aria-label", "Change language");
+    registry.languages.forEach((l) => {
+      const opt = document.createElement("option");
+      opt.value = l.code;
+      opt.textContent = l.label;
+      if (l.code === currentCode) opt.selected = true;
+      sel.appendChild(opt);
+    });
+    sel.addEventListener("change", (e) => setLang(e.target.value));
+    btnEl.appendChild(sel);
+    btnEl.dataset.upgraded = "1";
+  }
+
+  async function init() {
+    try {
+      const r = await loadJSON("lang/registry.json");
+      if (r && Array.isArray(r.languages) && r.languages.length) {
+        registry = { default: r.default || r.languages[0].code, languages: r.languages };
+      }
+    } catch (e) {
+      // fall back to built-in registry
+    }
     const initial = pickLang();
     setLang(initial);
     document.querySelectorAll("[data-lang-switch]").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        const cur = localStorage.getItem(STORE_KEY) || DEFAULT;
-        setLang(cur === "zh" ? "en" : "zh");
-      });
+      if (registry.languages.length === 2) {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const cur = localStorage.getItem(STORE_KEY) || registry.default;
+          const supp = supportedCodes();
+          const idx = supp.indexOf(cur);
+          const next = supp[(idx + 1) % supp.length];
+          setLang(next);
+        });
+      }
     });
   }
 
@@ -82,5 +154,5 @@
     init();
   }
 
-  window.huanlianI18n = { setLang };
+  window.huanlianI18n = { setLang, getRegistry: () => registry };
 })();

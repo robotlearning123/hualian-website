@@ -642,6 +642,16 @@ body[data-page="home"] .hero-section::before {
   color: var(--jade);
 }
 
+.lang-picker {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  padding: 0 16px 0 0;
+  cursor: pointer;
+}
+
 .hero-signal {
   position: absolute;
   inset: 0;
