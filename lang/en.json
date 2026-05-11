@@ -23,11 +23,11 @@
   },
   "nav": {
     "home": "Home",
-    "tech": "Technology",
+    "tech": "Core Tech",
     "platform": "Products",
     "shop": "Shop",
-    "apps": "Apps",
-    "partners": "Partners",
+    "apps": "Applications",
+    "partners": "Research",
     "contact": "Contact",
     "toggle": "Toggle navigation"
   },
@@ -45,14 +45,14 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Hefei Huanlian Technology · Implantable BCI System",
+      "eyebrow": "Hefei Huanlian Technology · Implantable BCI System Solutions",
       "title": "Huanlian Tech",
-      "lede": "Self-controlled high-throughput neural acquisition, implantable electrodes, stimulation and clinical translation. Full-stack BCI from research to in-hospital rehabilitation.",
-      "cta1": "View Products",
-      "cta2": "Technology",
-      "metric1": "NeuroBox channels",
-      "metric2": "Michigan silicon array",
-      "metric3": "Research partners"
+      "lede": "Vertically-integrated electrode and acquisition technology — powering neuroscience research and clinical translation.",
+      "cta1": "View Product Matrix",
+      "cta2": "Explore Tech Roadmap",
+      "metric1": "NeuroBox high-throughput neural acquisition",
+      "metric2": "High-density silicon implantable arrays",
+      "metric3": "Research · Clinical · Rehab — full lifecycle"
     },
     "intro": {
       "kicker": "About",
@@ -74,17 +74,17 @@
       "p4": "EEG caps, wave testers, emotion analyzers, BCI glasses — wearables for daily health."
     },
     "pipe": {
-      "kicker": "Pipeline",
-      "title": "From implant interface to clinical translation",
-      "sub": "Three scenes — lab, clinic, at-home — covered by five solutions and four product lines.",
-      "t1": "Implantable Electrodes",
-      "p1": "Michigan silicon, ECoG flexible, microwire arrays — Spike + LFP + microstimulation.",
-      "t2": "Acquisition & Targeting",
-      "p2": "NeuroBox host, Headstage, MPM multi-arm targeting, Neuropixels-ready.",
-      "t3": "Analysis & Decoding",
-      "p3": "NeuroAnalysis, AI signal parsing, spike sorting, correlated encoding.",
-      "t4": "Clinic & Rehab",
-      "p4": "SpikeLink full-implant, rehab suites, TI / transcranial mod, at-home BCI."
+      "kicker": "FULL STACK · End-to-end",
+      "title": "Implant interface to clinical rehab — one stack",
+      "sub": "Implant · acquisition · decode · rehab — a closed-loop BCI solution across the full pipeline.",
+      "t1": "MICHIGAN · Implant Interface",
+      "p1": "Michigan silicon, ECoG flexible, microwire arrays. Spike + LFP + micro-current stimulation.",
+      "t2": "NEUROBOX · Acquisition & Targeting",
+      "p2": "NeuroBox high-throughput host, Headstage, MPM multi-arm implant targeting, Neuropixels adapter.",
+      "t3": "NEUROANALYSIS · Signal Decoding",
+      "p3": "NeuroAnalysis software, AI signal decoding, spike sorting, neural encoding analysis.",
+      "t4": "REHAB · Clinical Rehab",
+      "p4": "SpikeLink full-implant, rehab packages, TI / transcranial modulation, at-home health."
     },
     "launch": {
       "kicker": "Launch",
@@ -145,29 +145,29 @@
     },
     "scroll": "Scroll ↓",
     "cine1": {
-      "eyebrow": "SpikeLink · Implant",
+      "eyebrow": "MICHIGAN · Implant",
       "title": "Hospital-grade BCI on a surgical tray",
       "body": "SpikeLink wireless full-implant: silicon probes + gold contacts + jade signal pathway, from intra-op placement to long-term recording."
     },
     "cine2": {
-      "eyebrow": "NeuroBox · 2048 Channels",
+      "eyebrow": "NEUROBOX · Acquisition",
       "title": "High-throughput neural signals on screen — live",
       "body": "0–30 kHz on-line sampling, live bandwidth tuning, multi-channel impedance. NeuroBox host + Headstage front-end — the shortest path from cortex to display."
     },
     "cine3": {
-      "eyebrow": "Rehab · Digital Center",
+      "eyebrow": "REHAB · Rehabilitation",
       "title": "Bringing motor intent back to the limb",
       "body": "Brain-controlled exoskeleton + closed-loop rehab algorithms. Joint with Anhui Provincial Hospital — flagship digital rehab center."
     },
     "cineFab": {
-      "eyebrow": "Cleanroom · Fab",
-      "title": "Chips ship from our cleanroom",
-      "body": "Silicon probes, dissolvable neural interface materials and high-density contact arrays — fabricated on our own micro/nano line. From mask to package, every step matches electrophysiology standards."
+      "eyebrow": "CLEANROOM · Fab",
+      "title": "Made in the cleanroom, micron-grade precision",
+      "body": "Silicon probes and high-density contact arrays are fabricated on our own micro/nano line — from mask to package, every step meets electrophysiology standards."
     },
     "cineDecode": {
-      "eyebrow": "Decode · AI",
+      "eyebrow": "NEUROANALYSIS · Decode",
       "title": "Turning neural activity into intent",
-      "body": "NeuroAnalysis + in-house AI decode raw multi-channel neural signals into movement, language and emotion intents — closing the loop for BCI control."
+      "body": "NeuroAnalysis decodes multi-channel raw neural signals into observable intents — movement, language, emotion — for closed-loop BCI control."
     },
     "demo": {
       "eyebrow": "Demo · Product",

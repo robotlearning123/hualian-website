@@ -2,6 +2,31 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — nav rename + reorder + home hero rewrite + capsule labels (FIX-024)
+
+- **FIX-024a** `feat(nav)` — labels and order rewritten per the 2026-05-11
+  feedback. New site nav: 首页 / 核心技术 / 产品 / 应用场景 / 科研合作 / 采购商城 / 联系我们
+  (shop moved from position 4 to position 6). EN labels: Home / Core Tech /
+  Products / Applications / Research / Shop / Contact. Footer link
+  groups reordered to match. 7 HTML files patched.
+- **FIX-024b** `polish(home)` — hero block rewritten per feedback:
+  - eyebrow: 合肥幻联科技：植入式脑机接口系统解决方案提供商
+  - H1: 幻联科技
+  - lede: 以自主可控的电极与采集技术，赋能神经科学研究与临床转化。
+  - cta2: 技术路线 → 了解技术路线
+  - 3 hero-proof metrics relabeled
+- **FIX-024c** `polish(home)` — 5 cinematic banner eyebrows rebadged to
+  uppercase-brand "capsule" pattern: MICHIGAN · 植入, NEUROBOX · 采集,
+  NEUROANALYSIS · 解码, CLEANROOM · 微纳加工, REHAB · 康复. Body copy
+  for cineFab and cineDecode rewritten per feedback verbatim.
+- **FIX-024d** `polish(home)` — pipeline 4 steps now lead with the same
+  capsule brand: 01 MICHIGAN · 植入界面 / 02 NEUROBOX · 采集与定位 /
+  03 NEUROANALYSIS · 信号解析 / 04 REHAB · 临床康复. Section kicker
+  FULL STACK · 全链路. Title and sub rewritten verbatim per feedback.
+
+Visual CSS for the capsule label (rounded pill, deep gray bg, brand
+border) lands in FIX-025 next.
+
 ## 2026-05-11 — brand rename (FIX-023)
 
 - **FIX-023** `breaking(brand)` — site-wide brand purge per the 2026-05-11
