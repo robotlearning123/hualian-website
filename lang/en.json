@@ -1,23 +1,23 @@
 {
   "meta": {
-    "homeTitle": "AstroMind | Hefei Huanlian Technology · Implantable BCI",
-    "homeDesc": "Hefei Huanlian Technology (AstroMind) — implantable BCI systems R&D and industrialization. SpikeLink wireless implant, NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, HD-MEA arrays.",
-    "techTitle": "Technology | AstroMind · Hefei Huanlian",
-    "techDesc": "AstroMind technology stack: high-throughput electrodes, neural acquisition, signal analysis software, in-vitro HD-MEAs.",
-    "platformTitle": "Products | AstroMind · Hefei Huanlian",
+    "homeTitle": "Huanlian Tech | Hefei Huanlian Technology · Implantable BCI",
+    "homeDesc": "Hefei Huanlian Technology (Huanlian Tech) — implantable BCI systems R&D and industrialization. SpikeLink wireless implant, NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, HD-MEA arrays.",
+    "techTitle": "Technology | Huanlian Tech · Hefei Huanlian",
+    "techDesc": "Huanlian Tech technology stack: high-throughput electrodes, neural acquisition, signal analysis software, in-vitro HD-MEAs.",
+    "platformTitle": "Products | Huanlian Tech · Hefei Huanlian",
     "platformDesc": "Product matrix: SpikeLink wireless implant, NeuroBox 2048-channel acquisition, Michigan / ECoG / microwire electrodes, Neuropixels-ready, MPM targeting, HD-MEAs.",
-    "shopTitle": "Shop | AstroMind · Hefei Huanlian",
-    "shopDesc": "AstroMind shop: implantable BCI, acquisition systems, electrodes, rehabilitation gear, lifestyle BCI.",
-    "appsTitle": "Applications | AstroMind · Hefei Huanlian",
-    "appsDesc": "AstroMind applications: basic neuroscience, clinical translation, rehab wards, at-home health.",
-    "partnersTitle": "Partners | AstroMind · Hefei Huanlian",
+    "shopTitle": "Shop | Huanlian Tech · Hefei Huanlian",
+    "shopDesc": "Huanlian Tech shop: implantable BCI, acquisition systems, electrodes, rehabilitation gear, lifestyle BCI.",
+    "appsTitle": "Applications | Huanlian Tech · Hefei Huanlian",
+    "appsDesc": "Huanlian Tech applications: basic neuroscience, clinical translation, rehab wards, at-home health.",
+    "partnersTitle": "Partners | Huanlian Tech · Hefei Huanlian",
     "partnersDesc": "Research universities, medical schools, top hospitals, and the Anhui Provincial Hospital strategic partnership.",
-    "contactTitle": "Contact | AstroMind · Hefei Huanlian",
+    "contactTitle": "Contact | Huanlian Tech · Hefei Huanlian",
     "contactDesc": "Tel 0551-65250690 · Email AstroMind@xnzlsmart.cn · Bailee Center South Tower 318, 888 Qianshan Rd, Hefei."
   },
   "brand": {
-    "name": "AstroMind",
-    "subtitle": "Huanlian BCI",
+    "name": "Huanlian Tech",
+    "subtitle": "Huanlian Technology",
     "tagline": "Pioneering the Future",
     "taglineEn": "以脑引智 · 联动未来"
   },
@@ -41,12 +41,12 @@
       "pdf": "Launch PDF"
     },
     "addr": "Bailee Center South Tower 318<br>888 Qianshan Rd, Hefei",
-    "copy": "© 2026 Hefei Huanlian Technology Co., Ltd. · AstroMind · ICP placeholder"
+    "copy": "© 2026 Hefei Huanlian Technology Co., Ltd. · Huanlian Tech · ICP placeholder"
   },
   "home": {
     "hero": {
       "eyebrow": "Hefei Huanlian Technology · Implantable BCI System",
-      "title": "AstroMind",
+      "title": "Huanlian Tech",
       "lede": "Self-controlled high-throughput neural acquisition, implantable electrodes, stimulation and clinical translation. Full-stack BCI from research to in-hospital rehabilitation.",
       "cta1": "View Products",
       "cta2": "Technology",
@@ -57,7 +57,7 @@
     "intro": {
       "kicker": "About",
       "title": "Hefei Huanlian — Anhui's leading implantable BCI company",
-      "lede": "Hefei Huanlian Technology (AstroMind) specializes in implantable BCI systems R&D and industrialization, covering high-end implantable electrodes, high-throughput acquisition, and research services. Core team: materials science, micro-nano fabrication, chip design, neuroelectrophysiology, algorithms — with mastered tech in dissolvable neural materials, silicon-probe nanofabrication, and high-frequency signal acquisition."
+      "lede": "Hefei Huanlian Technology (Huanlian Tech) specializes in implantable BCI systems R&D and industrialization, covering high-end implantable electrodes, high-throughput acquisition, and research services. Core team: materials science, micro-nano fabrication, chip design, neuroelectrophysiology, algorithms — with mastered tech in dissolvable neural materials, silicon-probe nanofabrication, and high-frequency signal acquisition."
     },
     "cap": {
       "k1": "Devices",

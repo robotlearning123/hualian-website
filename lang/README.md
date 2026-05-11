@@ -16,7 +16,7 @@ The runtime in `scripts/i18n.js`:
 
 | Attribute | Behavior | Example |
 |---|---|---|
-| `data-i18n="key"` | Sets `el.textContent = dict[key]`. HTML inside the value is escaped. | `<h1 data-i18n="home.hero.title">星脑智联</h1>` |
+| `data-i18n="key"` | Sets `el.textContent = dict[key]`. HTML inside the value is escaped. | `<h1 data-i18n="home.hero.title">幻联科技</h1>` |
 | `data-i18n-html="key"` | Sets `el.innerHTML = dict[key]`. Use when value contains tags like `<br>`. | `<p data-i18n-html="footer.addr">合肥市…<br>百利中心…</p>` |
 | `data-i18n-attr="attr:key,attr2:key2"` | Sets attributes (description, alt, aria-label, etc.). Comma-separated pairs. | `<meta name="description" content="…" data-i18n-attr="content:meta.homeDesc">` |
 

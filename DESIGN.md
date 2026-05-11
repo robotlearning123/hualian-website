@@ -1,7 +1,7 @@
-# 星脑智联 (Huanlian BCI · AstroMind) Design System
+# 幻联科技 (Hefei Huanlian Technology) Design System
 
 ## Brand
-**合肥幻联科技有限公司 · 星脑智联** — 国内专注于植入式脑机接口系统研发与产业化的高科技企业。提供 SpikeLink 全植入无线脑机接口、NeuroBox 2048 通道神经信号采集、密歇根硅基/ECoG/微丝电极、HD-MEA 离体阵列等医疗级 + 科研级全系列产品。
+**合肥幻联科技有限公司 · 幻联科技** — 国内专注于植入式脑机接口系统研发与产业化的高科技企业。提供 SpikeLink 全植入无线脑机接口、NeuroBox 2048 通道神经信号采集、密歇根硅基/ECoG/微丝电极、HD-MEA 离体阵列等医疗级 + 科研级全系列产品。
 
 ## Visual Identity
 - **High-precision instrument aesthetic.** 暗色基底，柔和金属质感，避免 SaaS 模板感。

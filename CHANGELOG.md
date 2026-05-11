@@ -1,6 +1,20 @@
 # Changelog
 
-All notable changes to the Huanlian BCI website. Newest first.
+All notable changes to the Huanlian Technology website. Newest first.
+
+## 2026-05-11 — brand rename (FIX-023)
+
+- **FIX-023** `breaking(brand)` — site-wide brand purge per the 2026-05-11
+  feedback docx. The brand 星脑智联 / AstroMind is removed from every
+  HTML, JSON, and Markdown file. New canonical names:
+  - Chinese short brand: **幻联科技** (was 星脑智联)
+  - Chinese legal name: **合肥幻联科技有限公司** (unchanged)
+  - English short: **Huanlian Tech** (was AstroMind)
+  - English long: **Huanlian Technology** / **Hefei Huanlian Technology**
+  - Email `AstroMind@xnzlsmart.cn` preserved (real account on real domain)
+  - JSON-LD `alternateName` array updated
+  - 96 brand-string replacements across 14 files; 0 stale references
+    remain outside the changelog history.
 
 ## 2026-05-09 — FOUL fix + zh/en parity polish (FIX-022)
 

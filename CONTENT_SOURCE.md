@@ -4,7 +4,7 @@ Source: `huanlian/HL网站-公司介绍-产品与服务文字介绍.doc` (extrac
 
 ## 公司主体
 - 全称：合肥幻联科技有限公司
-- 品牌：星脑智联（Huanlian BCI / AstroMind）
+- 品牌：幻联科技（Huanlian Technology / Huanlian Tech）
 - 定位：国内专注于植入式脑机接口系统研发与产业化的高科技企业
 
 ## 联系方式

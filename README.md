@@ -1,4 +1,4 @@
-# 星脑智联 / Huanlian BCI · AstroMind
+# 幻联科技 · Huanlian Technology
 
 合肥幻联科技有限公司官网（静态站点）— Hefei Huanlian Technology corporate website (static).
 
