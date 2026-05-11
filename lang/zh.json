@@ -17,7 +17,9 @@
   },
   "brand": {
     "name": "星脑智联",
-    "subtitle": "Huanlian BCI"
+    "subtitle": "Huanlian BCI",
+    "tagline": "以脑引智 · 联动未来",
+    "taglineEn": "Pioneering the Future"
   },
   "nav": {
     "home": "首页",
@@ -31,7 +33,7 @@
   },
   "footer": {
     "name": "合肥幻联科技有限公司",
-    "sub": "星脑智联 · Huanlian BCI · AstroMind",
+    "sub": "以脑引智 · 联动未来 — Pioneering the Future",
     "h": {
       "site": "站点",
       "more": "更多",
@@ -90,6 +92,7 @@
       "lede": "幻联科技作为安徽脑机接口联盟成员，联合发布国产植入式脑机接口系列产品，推动高通量神经接口从实验室走向临床。",
       "cta1": "下载发布资料",
       "cta2": "询问产品报价",
+      "cta3": "下载产品手册 PDF",
       "cap1": "联盟发布主题分享",
       "cap2": "SpikeLink 芯片",
       "cap3": "电生理实验室"
@@ -549,9 +552,9 @@
         "body": "270° 多屏 + 运动交互平台 + 双 GPU 主机，沉浸式动物行为实验。"
       },
       "hdmea": {
-        "kicker": "HD-MEA",
-        "title": "离体高密度微电极阵列",
-        "body": "体外细胞功能、发育、连接与形态实时无标记检测，表型表征 / 疾病建模 / 药物研发。"
+        "kicker": "HuanLian HD-MEA",
+        "title": "离体脑机超高密度微电极阵列",
+        "body": "HuanLian HD-MEA — 单孔 22,400 Pt 电极、3,265 电极/mm²，体外细胞功能、发育、连接与形态实时无标记检测，覆盖表型表征 / 疾病建模 / 药物研发。"
       },
       "exo": {
         "kicker": "Exoskeleton",

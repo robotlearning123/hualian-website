@@ -17,7 +17,9 @@
   },
   "brand": {
     "name": "AstroMind",
-    "subtitle": "Huanlian BCI"
+    "subtitle": "Huanlian BCI",
+    "tagline": "Pioneering the Future",
+    "taglineEn": "以脑引智 · 联动未来"
   },
   "nav": {
     "home": "Home",
@@ -31,7 +33,7 @@
   },
   "footer": {
     "name": "Hefei Huanlian Technology Co., Ltd.",
-    "sub": "AstroMind · Huanlian BCI",
+    "sub": "Pioneering the Future — 以脑引智 · 联动未来",
     "h": {
       "site": "Site",
       "more": "More",
@@ -90,6 +92,7 @@
       "lede": "As a member of the Anhui BCI Alliance, Huanlian co-launched a domestic implantable BCI series, advancing high-throughput neural interfaces from lab to clinic.",
       "cta1": "Launch PDF",
       "cta2": "Get a Quote",
+      "cta3": "Product Manual PDF",
       "cap1": "Alliance Launch Keynote",
       "cap2": "Implant Macro",
       "cap3": "Lab Floor"
@@ -549,9 +552,9 @@
         "body": "270° multi-screen + motion platform + dual-GPU host — immersive animal behavior."
       },
       "hdmea": {
-        "kicker": "HD-MEA",
-        "title": "In-vitro HD-MEA",
-        "body": "Real-time label-free in-vitro cell function, development, connectivity, morphology — phenotyping, disease modeling, drug discovery."
+        "kicker": "HuanLian HD-MEA",
+        "title": "HuanLian HD-MEA In-Vitro Array",
+        "body": "22,400 Pt electrodes per well, 3,265 electrodes/mm². Real-time label-free in-vitro cell function, development, connectivity, morphology — phenotyping, disease modeling, drug discovery."
       },
       "exo": {
         "kicker": "Exoskeleton",
