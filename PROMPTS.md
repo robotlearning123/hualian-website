@@ -126,3 +126,35 @@ When choosing media for a section, follow this priority:
 3. **Text-only** as a last resort, only when all media would clash with the page rhythm.
 
 Avoid using the same asset on more than two distinct pages. Same-page reuse is forbidden — always pick a unique asset per slot. Use this prompt log to find the closest existing match, or extend the log with a new entry when generating.
+
+---
+
+## Batch 6 — feedback-driven replacements (2026-05-11, FIX-029)
+
+Per 2026-05-11 feedback docx: the original hero, brain-decode and
+cleanroom assets had on-brand problems — hero showed a medical-monitor
+panel BG that did not match BCI brand; the brain holo was
+anatomically inaccurate; the cleanroom looked like a generic
+semiconductor fab. Three replacement pairs (image + matching loop video):
+
+### `assets/images/hero-implant-v2.png`
+> Cinematic editorial macro photograph of an implantable brain-computer interface chip on a polished stainless-steel surgical tray. Fine silicon probe shanks with rows of gold microelectrode contacts in razor-sharp focus, foreground. Background: a clean, out-of-focus neuroscience lab scene — anti-static black workbench, faint jade-green neural waveform on a single dark display far behind. ABSOLUTELY NO medical patient monitor, NO heart-rate panels, NO blurry numeric readouts, NO tangled cables, NO wall-mounted device panels. Dark moody lighting, single warm amber instrument light, deep shadows, subtle vignette. No text, no logos, no people. Hyper-real medical device photography, Phase One IQ4 quality, 4k, color-graded for a dark editorial site.
+
+### `assets/media/hero-loop-v2.mp4`
+> Cinematic 5 second loop, slow macro dolly across an implantable brain-computer interface chip on a dark surgical tray. Razor-sharp silicon probe shanks with rows of gold contact pads in foreground, gently pulsing jade-green signal indicator. Out of focus background is a deep matte black workbench with a single faint waveform monitor far away. NO patient monitor, NO numeric medical panels, NO cables, NO people, NO text. Subtle vignette, warm amber instrument blink. Hyper-real medical device cinematography, Hasselblad quality.
+
+### `assets/images/neural-waves-v2.png`
+> Abstract scientific data visualization: thirty channels of multi-electrode neural spike waveforms cascading across a deep black background, glowing jade-green (#7ee4bd) traces with tiny amber tick marks for spike events, faint translucent wireframe brain silhouette barely visible behind the waveforms (no anatomical rendering, just wireframe contour), thin grid lines, scientific instrument feel. NO blood vessels, NO neurons drawn as anatomy, NO photorealistic brain, NO text labels, NO people. Editorial dark studio aesthetic, ultra detailed, 4k.
+
+### `assets/media/neural-waves-loop-v2.mp4`
+> 5 second seamless loop, cinematic abstract data visualization. Thirty channels of multi-electrode neural spike waveforms streaming horizontally across a deep black background. Glowing jade-green (#7ee4bd) traces with occasional amber spike events lighting up. A faint translucent wireframe brain silhouette in the background, very subtle. Slow camera push-in. Scientific instrument feel. NO photorealistic brain, NO blood vessels, NO text, NO people. Editorial dark, ultra detailed.
+
+### `assets/images/electrode-fab-v2.png`
+> Ultra-macro studio photograph of a silicon neural probe wafer mid-fabrication: a single thin silicon shank under high-magnification, hundreds of gold electrode contacts arrayed in a fine pattern, slight wet-etch shimmer on the surface. Behind the probe: an out-of-focus cleanroom interior with HEPA ceiling and a gowned hand (blue nitrile glove only, no face) holding a precision tweezer. Strong amber task-light from the right, soft jade-green signal-test LED on the left. ABSOLUTELY NO white industrial robot arm, NO generic semiconductor fab, NO wafer carousel, NO consumer chip imagery. Hyper-real scientific equipment photography, dark moody color grade, 4k editorial.
+
+### `assets/media/electrode-fab-loop-v2.mp4`
+> 5 second seamless loop, ultra-macro cinematography of a silicon neural probe during microfabrication. Slow dolly across a single thin silicon shank with hundreds of gold electrode contacts under high-magnification. Slight wet-etch shimmer. Subtle amber and jade-green LED accents from the cleanroom workstation behind. NO white industrial robot arm, NO wafer carousel, NO generic semiconductor fab, NO people's faces. Dark moody color grade, scientific equipment cinematography, hyper-real.
+
+**Deprecated (kept in repo for archive but no longer referenced):**
+hero-implant.png, hero-loop.mp4, brain-holo.png, brain-rotate.mp4,
+cleanroom.png, cleanroom-loop.mp4.

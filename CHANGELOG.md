@@ -2,6 +2,39 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — replace 3 image+video pairs per feedback (FIX-029)
+
+- **FIX-029a** `feat(asset)` — three on-brand replacements generated via
+  fal-ai/gpt-image-2 (image) + fal-ai/bytedance/seedance/v1/pro (video):
+  - **Hero** (`hero-implant-v2.png` + `hero-loop-v2.mp4`) — the original
+    hero showed a patient-monitor-style background panel that the
+    feedback called "和脑机接口产品调性不匹配". The v2 keeps the
+    silicon probe + gold contact pads in the foreground but the BG is
+    now a clean out-of-focus neuroscience workbench, not a generic
+    medical monitor.
+  - **NEUROANALYSIS banner** (`neural-waves-v2.png` +
+    `neural-waves-loop-v2.mp4`) — replaces the previous brain hologram
+    which the feedback flagged as anatomically inaccurate (神经/血管
+    混淆). The v2 is an abstract multi-channel waveform visualization
+    with a faint wireframe brain silhouette; scientifically defensible
+    rather than a beauty render.
+  - **CLEANROOM banner** (`electrode-fab-v2.png` +
+    `electrode-fab-loop-v2.mp4`) — the previous cleanroom video read
+    as a generic semiconductor fab; feedback wanted "电极/探针制造
+    专属工艺". The v2 is an ultra-macro of a silicon neural probe
+    under high magnification, with a cleanroom workstation barely
+    visible behind.
+  Six prompts, manifest entries and audit JSONs stored in
+  `assets-manifest.json#generated.batch6`, `PROMPTS.md` "Batch 6", and
+  `.fal-tracking/runs/20260511T134051Z/`. Old assets remain on disk
+  for archive but are marked `deprecated` in the manifest.
+- **FIX-029b** `fix(footer)` — per user instruction "发布资料 PDF
+  should be the company/product pdf, not the current ppt", footer link
+  on all 7 pages now points at `assets/docs/huanlian-product-manual.pdf`
+  (the 6.6 MB compressed product manual from FIX-022.5) instead of the
+  Anhui BCI Alliance launch PPT. Label retitled `产品手册 PDF` /
+  `Product Manual PDF`.
+
 ## 2026-05-11 — nav + hero typography per feedback spec (FIX-028)
 
 - **FIX-028a** `style(nav)` — feedback's nav spec applied:
