@@ -2,6 +2,33 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — codex/sonnet review follow-up (FIX-031)
+
+Cross-model review (Sonnet sub-agent, since codex spark + gemini both
+hit quota) found three drift items after FIX-030. Closed all three:
+
+- **FIX-031a** `purge(deploy)` — `design-iterations/{stitch-v1,claude-v1}/index.html`
+  still contained legacy "星脑智联 / AstroMind" branding and Cloudflare
+  Pages was serving them at /design-iterations/.../index.html. The
+  directory was old design drafts (Stitch + Claude variants) from
+  before the production site existed. Deleted the whole tree (~13 MB)
+  from the deploy. Still recoverable from git history at commit a43c31f^.
+- **FIX-031b** `style(cinematic)` — `.cinematic-band::after` baseline dim
+  was 0.20; spec says 25% (`.hero-overlay` was already 0.25). Bumped to
+  0.25 so all dark video bands match.
+- **FIX-031c** `style(button)` — `.button` font clamp(16,1.6vw,20) →
+  clamp(18,1.7vw,22) so the floor sits inside the feedback's 18-22px
+  band. Was off by 2px on mobile.
+- **FIX-031d** `style(home)` — `body[data-page="home"] .hero-lede`
+  clamp(24,3.2vw,42) → clamp(28,3.6vw,44) so the mobile floor stays
+  in the spec's 35-45px range.
+
+Also pruned an untracked `AGENTS.md` claude-mem context cruft file.
+
+The reviewer also flagged that the inline `<head>` FOUL gate script was
+missing — re-verified, it exists in every page (grep returns 1 hit per
+html). False alarm on that one.
+
 ## 2026-05-11 — close the 10+ remaining feedback gaps (FIX-030)
 
 Honest audit against the docx exposed 10+ spec items still drifting
