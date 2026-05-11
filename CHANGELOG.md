@@ -2,6 +2,28 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — home narrative reorder (FIX-027)
+
+- **FIX-027** `feat(home)` — section order reshuffled to match the
+  feedback's 11-page narrative: build trust by showing products first,
+  then company. Final order on index.html:
+  1. hero
+  2. MICHIGAN cinematic
+  3. NEUROBOX cinematic
+  4. NEUROANALYSIS cinematic ← moved up from pos 9
+  5. FULL STACK pipeline
+  6. CLEANROOM cinematic
+  7. Demo
+  8. 关于我们 (intro)         ← moved down from pos 3
+  9. media-band (产品发布)
+  10. REHAB cinematic
+  11. teaser cards
+
+  Reason from the feedback: "用户了解产品后，再介绍公司背景，更容易建立信任".
+  Cinematic alignments left as-is; some adjacent banners now share
+  data-align but visual rhythm still reads clean against the dim
+  overlay (FIX-025).
+
 ## 2026-05-11 — Demo capsule + metric3 value i18n (FIX-026)
 
 - **FIX-026a** Demo banner eyebrow `Demo · 产品演示` → `DEMO · 产品演示`
