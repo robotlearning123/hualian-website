@@ -52,7 +52,8 @@
       "cta2": "Explore Tech Roadmap",
       "metric1": "NeuroBox high-throughput neural acquisition",
       "metric2": "High-density silicon implantable arrays",
-      "metric3": "Research · Clinical · Rehab — full lifecycle"
+      "metric3": "Research · Clinical · Rehab — full lifecycle",
+      "metric3value": "End-to-end"
     },
     "intro": {
       "kicker": "About",
@@ -170,7 +171,7 @@
       "body": "NeuroAnalysis decodes multi-channel raw neural signals into observable intents — movement, language, emotion — for closed-loop BCI control."
     },
     "demo": {
-      "eyebrow": "Demo · Product",
+      "eyebrow": "DEMO · Product",
       "title": "Hardware-to-software end-to-end",
       "body": "Real product walkthrough showing SpikeLink + NeuroBox + NeuroAnalysis across research and clinical scenarios."
     }

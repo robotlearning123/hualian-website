@@ -52,7 +52,8 @@
       "cta2": "了解技术路线",
       "metric1": "NeuroBox 高通量神经信号采集系统",
       "metric2": "高密度硅基植入式电极阵列",
-      "metric3": "覆盖科研、临床与康复全场景"
+      "metric3": "覆盖科研、临床与康复全场景",
+      "metric3value": "全周期"
     },
     "intro": {
       "kicker": "关于我们",
@@ -170,7 +171,7 @@
       "body": "NeuroAnalysis 神经信号分析软件，可对多通道原始神经信号进行解析，还原运动、语言、情绪等可观测意图，支撑闭环 BCI 系统的搭建与控制。"
     },
     "demo": {
-      "eyebrow": "Demo · 产品演示",
+      "eyebrow": "DEMO · 产品演示",
       "title": "从硬件到软件的完整工作流",
       "body": "真实产品演示视频，呈现 SpikeLink + NeuroBox + NeuroAnalysis 在科研与临床场景下的端到端体验。"
     }

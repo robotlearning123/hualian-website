@@ -2,6 +2,15 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — Demo capsule + metric3 value i18n (FIX-026)
+
+- **FIX-026a** Demo banner eyebrow `Demo · 产品演示` → `DEMO · 产品演示`
+  (capital `DEMO` to match the MICHIGAN / NEUROBOX / NEUROANALYSIS /
+  CLEANROOM / REHAB capsule pattern). EN dict: `DEMO · Product`.
+- **FIX-026b** Third hero-proof metric-value "全周期" was hardcoded —
+  in EN mode it stayed Chinese. Bound to new key
+  `home.hero.metric3value` (zh = 全周期, en = End-to-end).
+
 ## 2026-05-11 — visual rules: capsule label + dim overlay + button hover (FIX-025)
 
 - **FIX-025a** `style(eyebrow)` — `.cinematic-eyebrow` upgraded to the
