@@ -2,6 +2,21 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — nav + hero typography per feedback spec (FIX-028)
+
+- **FIX-028a** `style(nav)` — feedback's nav spec applied:
+  - `--header-height` 72 → 76px (feedback range 60–80)
+  - `.primary-nav` font 14 → 16px
+  - Active item gains jade color + 2px underline (was 1px, hidden by
+    default). Hover lightens text to bone.
+  - Underline inset by 12px each side so it spans the link text, not
+    the padding.
+- **FIX-028b** `style(hero)` — home H1 font-size clamp 58–116 → 72–150
+  (per feedback "120–150px on desktop"). Hero eyebrow on home only
+  switched from uppercase 12px tag to sentence-case 15–22px subtitle
+  (the company tagline reads as a real headline now, not a tag).
+  Hero lede 18–24 → 20–30px ("1/3–1/4 of H1").
+
 ## 2026-05-11 — home narrative reorder (FIX-027)
 
 - **FIX-027** `feat(home)` — section order reshuffled to match the
