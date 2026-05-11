@@ -305,6 +305,9 @@ a {
   inset: 0;
   z-index: -1;
   background:
+    /* uniform 22% dim to keep large H1 readable across any video frame (FIX-025) */
+    linear-gradient(180deg, rgba(8, 10, 8, 0.22), rgba(8, 10, 8, 0.22)),
+    /* original framing gradient */
     linear-gradient(180deg, rgba(8, 10, 8, 0.32) 0%, rgba(8, 10, 8, 0) 30%, rgba(8, 10, 8, 0) 55%, rgba(8, 10, 8, 0.78) 100%);
   pointer-events: none;
 }
@@ -586,6 +589,9 @@ a {
   inset: 0;
   z-index: -1;
   background:
+    /* baseline 20% dim per feedback (FIX-025) */
+    linear-gradient(180deg, rgba(8, 10, 8, 0.20), rgba(8, 10, 8, 0.20)),
+    /* directional gradient keeps copy area readable */
     linear-gradient(180deg, rgba(8, 10, 8, 0.0) 0%, rgba(8, 10, 8, 0.42) 60%, rgba(8, 10, 8, 0.84) 100%);
   pointer-events: none;
 }
@@ -623,19 +629,23 @@ a {
   max-width: 760px;
 }
 
-.cinematic-band .cinematic-eyebrow {
+.cinematic-band .cinematic-eyebrow,
+.demo-band .cinematic-eyebrow {
+  /* FIX-025: capsule label per feedback — deeper bg, jade border tint,
+     larger touch + readability. */
   display: inline-block;
-  margin-bottom: 16px;
-  padding: 4px 10px;
-  border: 1px solid var(--line-strong);
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border: 1px solid rgba(126, 228, 189, 0.28);
   border-radius: 999px;
-  background: rgba(8, 10, 8, 0.45);
+  background: rgba(16, 18, 16, 0.86);
   color: var(--jade);
   font-family: "JetBrains Mono", "SF Mono", Consolas, monospace;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  backdrop-filter: blur(2px);
 }
 
 .cinematic-band h2 {
@@ -855,7 +865,9 @@ p {
 }
 
 .button:hover {
-  transform: translateY(-1px);
+  /* FIX-025: stronger lift + state shift per feedback */
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(126, 228, 189, 0.12);
 }
 
 .button-primary {
@@ -863,9 +875,19 @@ p {
   color: #0b0c0b;
 }
 
+.button-primary:hover {
+  background: #ffffff;
+  border-color: var(--jade);
+}
+
 .button-secondary {
   background: rgba(246, 241, 232, 0.06);
   color: var(--ink);
+}
+
+.button-secondary:hover {
+  background: rgba(126, 228, 189, 0.12);
+  border-color: var(--jade);
 }
 
 .hero-media {

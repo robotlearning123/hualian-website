@@ -2,6 +2,24 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — visual rules: capsule label + dim overlay + button hover (FIX-025)
+
+- **FIX-025a** `style(eyebrow)` — `.cinematic-eyebrow` upgraded to the
+  feedback's "capsule" spec: padding 8×16, font 13px, jade-tinted 1px
+  border, deeper near-black bg (`rgba(16,18,16,0.86)`), backdrop blur
+  for readability over video. Selector extended to `.demo-band` so the
+  Demo banner matches.
+- **FIX-025b** `style(overlay)` — added a uniform 20–22% dim layer to
+  `.hero-overlay` and `.cinematic-band::after` (on top of the existing
+  directional gradient). Per feedback: "background images need a
+  20–25% dim overlay so the headline stays readable." Previously the
+  middle of the hero had 0 dim — the spot where the H1 sits.
+- **FIX-025c** `style(button)` — hover state strengthened. translateY
+  goes -1→-2px, jade-tinted shadow appears, primary background lifts
+  to pure white with jade border, secondary fills with translucent
+  jade. Matches feedback's "hover 时主按钮背景加深、次按钮填充半透明
+  品牌色".
+
 ## 2026-05-11 — nav rename + reorder + home hero rewrite + capsule labels (FIX-024)
 
 - **FIX-024a** `feat(nav)` — labels and order rewritten per the 2026-05-11
