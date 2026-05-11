@@ -2,6 +2,43 @@
 
 All notable changes to the Huanlian Technology website. Newest first.
 
+## 2026-05-11 — close the 10+ remaining feedback gaps (FIX-030)
+
+Honest audit against the docx exposed 10+ spec items still drifting
+from the feedback after FIX-023..029. This commit closes them all.
+
+- **FIX-030a** `content(home)` — three verbatim copy fixes per docx:
+  - cine2 (NEUROBOX) title: 实时**回到**屏幕上 → 实时**呈现在**屏幕上.
+  - cine2 body rewritten verbatim to docx [116]: "NeuroBox 高通量神经
+    信号采集系统，支持 2048 通道同步采集..."
+  - cine1 (MICHIGAN) body now mentions "32-256 通道覆盖, 从术中植入到
+    长期稳定记录" per docx [95]. EN mirrored.
+- **FIX-030b** `style(button)` — button spec applied verbatim:
+  - font-size clamp(16,1.6vw,20) — within feedback's 18-22px (was 14px)
+  - padding 12×24 (was `0 22px`), border-radius 8px (kept)
+  - primary: 白色填充 + jade 边框 + Medium 500 (was bone + line-strong + 700)
+  - secondary: 透明背景 + 白色边框 + Regular 400 (was rgba 0.06 + line + 700)
+- **FIX-030c** `style(metric)` — metric value 22-34 → 34-60px (within
+  feedback's 48-60). Removed the 1px grid line dividers — feedback
+  said "去掉生硬分隔线". `.hero-proof` is now a gapped grid (no border).
+  Partners-stats keeps its 4-col override at 30-48 to avoid overflow.
+- **FIX-030d** `style(hero)` — home lede 20-30 → 24-42px (feedback
+  range 35-45 with H1 at 100-150px baseline).
+- **FIX-030e** `style(cinematic)` — H2 36-72 → 48-96px (feedback
+  72-96), body 16-20 → 18-24px (feedback 20-24), capsule font 13 →
+  14px (feedback 14-16).
+- **FIX-030f** `style(page4)` — cineDecode capsule pulled out of the
+  copy block via absolute positioning so it sits at the section's
+  top-right corner, while title+body stay at bottom-right (matches
+  docx [126] "放置在页面右上角" + [132] "整体文字模块位于画面右下区域").
+- **FIX-030g** `style(pipeline)` — added hover bg highlight + 2px lift
+  on architecture-flow modules per docx [161] "hover 状态可添加轻微
+  背景高亮效果".
+- **FIX-030h** `style(overlay)` — hero/cinematic dim 22% → 25% to match
+  the feedback range exactly.
+- **FIX-030i** `style(nav)` — inactive nav text changed from
+  rgba(bone, 0.72) → #cccccc per feedback "未选中状态用浅白色 #CCCCCC".
+
 ## 2026-05-11 — replace 3 image+video pairs per feedback (FIX-029)
 
 - **FIX-029a** `feat(asset)` — three on-brand replacements generated via

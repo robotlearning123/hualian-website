@@ -148,12 +148,12 @@
     "cine1": {
       "eyebrow": "MICHIGAN · Implant",
       "title": "Hospital-grade BCI on a surgical tray",
-      "body": "SpikeLink wireless full-implant: silicon probes + gold contacts + jade signal pathway, from intra-op placement to long-term recording."
+      "body": "SpikeLink wireless full-implant + Michigan silicon probe + gold contacts. 32–256 channels — from intra-op placement to long-term stable recording."
     },
     "cine2": {
       "eyebrow": "NEUROBOX · Acquisition",
-      "title": "High-throughput neural signals on screen — live",
-      "body": "0–30 kHz on-line sampling, live bandwidth tuning, multi-channel impedance. NeuroBox host + Headstage front-end — the shortest path from cortex to display."
+      "title": "High-throughput neural signals, live on screen",
+      "body": "NeuroBox high-throughput neural signal acquisition supports 2048-channel synchronous capture — real-time recording and transmission of multi-channel raw neural signals, providing a complete, reliable data foundation for downstream analysis and decoding."
     },
     "cine3": {
       "eyebrow": "REHAB · Rehabilitation",
